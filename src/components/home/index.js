@@ -248,7 +248,7 @@ const HomeComponent = () => {
 
     return (
 
-        forecastData.isLoading ?
+        forecastData.isLoading || response.isLoading ?
             <CircularProgress color="success" />
             :
             <section className={classes.container}>

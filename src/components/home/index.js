@@ -244,10 +244,10 @@ const HomeComponent = () => {
             setBulkData(res.data ? res.data : {})
         });
     }, [])
-    console.log(forecastData);
     const { data, error } = forecastData;
     const forecastError = error?.data?.error?.message
     const forecast = data
+
     return (
         <section className={classes.container}>
             <Header classes={classes} isMobile={isMobile} setAnchorEl={setAnchorEl} anchorEl={anchorEl} setQuery={setQuery} query={query}

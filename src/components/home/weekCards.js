@@ -1,6 +1,5 @@
 import { Divider, Paper, Tooltip, makeStyles } from "@material-ui/core"
 import moment from "moment/moment"
-import { ReactComponent as Rainy } from "../../assests/rainy.svg"
 import clsx from "clsx"
 import { memo } from "react"
 import { US_EPA_SCALE } from "../../constants"

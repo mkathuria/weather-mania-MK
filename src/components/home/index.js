@@ -12,8 +12,6 @@ import StatsGraph from "./graph";
 import { ReactComponent as AlertIcon } from "../../assests/alert.svg";
 import { ReactComponent as SunIcon } from "../../assests/light_mode.svg";
 import { ReactComponent as MoonIcon } from "../../assests/dark_mode.svg";
-import { useDispatch, useSelector } from "react-redux"
-import { setForecastError } from "../../reducers/user"
 import moment from "moment"
 import { useGetBulkWeatherDataMutation, useGetForecastDataQuery } from "../../services/weather"
 

@@ -4,9 +4,6 @@ import moment from "moment";
 import { useState } from "react";
 import Chart from "react-apexcharts";
 
-import { ReactComponent as Rainy } from "../../assests/rainy.svg"
-// import { ReactComponent as RightArrow } from "../../assests/right-arrow.svg"
-
 const useStyles = makeStyles((theme) => ({
     main: {
         width: "25%",

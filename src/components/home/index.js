@@ -20,7 +20,7 @@ const useStyles = makeStyles((theme) => ({
         backgroundColor: theme.palette.background.unique.inverseWhite,
         height: "100%",
         borderRadius: theme.spacing(3.75),
-        padding: theme.spacing(3),
+        padding: theme.spacing(2),
         maxWidth: 1440,
         margin: "auto",
         [theme.breakpoints.down("sm")]: {

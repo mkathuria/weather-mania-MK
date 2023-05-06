@@ -7,14 +7,12 @@ import { UK_DEFRA_INDEX } from "../../constants"
 
 const useStyles = makeStyles((theme) => ({
     container: {
-        display: "grid",
-        gridAutoFlow: "column",
+        display: "flex",
         marginTop: theme.spacing(4),
         gap: theme.spacing(1),
         justifyContent: "space-between",
 
-        [theme.breakpoints.down("md")]: {
-            gap: theme.spacing(2),
+        [theme.breakpoints.down("lg")]: {
             overscrollBehaviorX: "contain",
             scrollSnapType: "x mandatory",
             scrollbarWidth: "none",
@@ -32,7 +30,7 @@ const useStyles = makeStyles((theme) => ({
         width: "100%",
         borderRadius: theme.spacing(2),
         textAlign: "center",
-        maxWidth: theme.spacing(12),
+        maxWidth: theme.spacing(15),
         background: theme.palette.background.main,
         padding: 10,
         "& p": {
@@ -48,7 +46,8 @@ const useStyles = makeStyles((theme) => ({
         "& > div > div > section": {
             display: "flex",
             gap: 2,
-            fontSize: 10,
+            justifyContent: "space-between",
+            fontSize: 12,
             marginTop: 5,
             whiteSpace: "nowrap",
             "& p:nth-child(2)": {
@@ -71,7 +70,7 @@ const useStyles = makeStyles((theme) => ({
         transition: "transform 0.8s",
     },
     activeDay: {
-        width: 210,
+        width: 260,
         height: "fit-content",
         background: theme.palette.background.frenchGrey[1],
         borderRadius: theme.spacing(2),
@@ -104,7 +103,7 @@ const useStyles = makeStyles((theme) => ({
         display: "flex",
         gap: 2,
         marginTop: 5,
-        fontSize: 10,
+        fontSize: 12,
         whiteSpace: "nowrap",
         "& p:first-child": {
             color: ({ isDays }) => isDays ? theme.palette.background.unique.inverseBlack : theme.palette.background.unique.inverseWhite,
@@ -120,7 +119,7 @@ const useStyles = makeStyles((theme) => ({
         gap: 2,
         "& > section > span": {
             display: "flex",
-            fontSize: 10,
+            fontSize: 12,
             marginTop: 5,
             gap: 2,
             "& p:first-child": {
@@ -142,7 +141,7 @@ const useStyles = makeStyles((theme) => ({
         },
         "& > div > span": {
             display: "flex",
-            fontSize: 10,
+            fontSize: 12,
             gap: 2,
             marginTop: 5,
             "& p:first-child": {
@@ -165,7 +164,7 @@ const useStyles = makeStyles((theme) => ({
             flexFlow: "column",
             justifyContent: "center",
             "& > div": {
-                fontSize: 10,
+                fontSize: 12,
                 "& p:first-child": {
                     color: ({ isDays }) => isDays ? theme.palette.background.unique.inverseBlack : theme.palette.background.unique.inverseWhite,
                 },
@@ -219,8 +218,7 @@ function WeeklyReport({ reportType, forecastday, current, selectedDate, setSelet
                                                 <p className={classes.currectTemp}>
                                                     {`${current.temp_c}°C`}
                                                 </p>
-                                                {/* <Rainy height={60} width={60} /> */}
-                                                <img src={item?.day?.condition.icon} alt={item?.day?.condition.text} height={60} width={60} />
+                                                <img src={item?.day?.condition.icon} alt={item?.day?.condition.text} />
 
                                             </section>
                                             <span>
@@ -245,11 +243,11 @@ function WeeklyReport({ reportType, forecastday, current, selectedDate, setSelet
 
                                                 <section>
                                                     <span>
-                                                        <p>Prec Chances:</p>
+                                                        <p>Prec</p>
                                                         <p>{`${item.day.daily_chance_of_rain} %`}</p>
                                                     </span>
                                                     <span>
-                                                        <p>Snowfall Chances:</p>
+                                                        <p>Snowfall</p>
                                                         <p>{`${item.day.daily_chance_of_snow} %`}</p>
                                                     </span>
                                                 </section>
@@ -287,7 +285,7 @@ function WeeklyReport({ reportType, forecastday, current, selectedDate, setSelet
                                 <div className={reportType === "FORECAST" ? classes.flipAnti : classes.flip}>
                                     {reportType === "AQI" ? <AQIData data={aqiData} isDays={true} /> :
                                         <>
-                                            <img src={item?.day?.condition.icon} alt={item?.day?.condition.text} height={60} width={60} />
+                                            <img src={item?.day?.condition.icon} alt={item?.day?.condition.text} height={70} width={70} />
 
                                             {/* <Rainy height={60} width={60} /> */}
                                             <section>
@@ -299,11 +297,11 @@ function WeeklyReport({ reportType, forecastday, current, selectedDate, setSelet
                                                 <p>{`${item.day.maxtemp_c}°C`}</p>
                                             </section>
                                             <section>
-                                                <p>Prec Chances:</p>
+                                                <p>Prec</p>
                                                 <p>{`${item.day.daily_chance_of_rain} %`}</p>
                                             </section>
                                             <section>
-                                                <p>Snow Chances:</p>
+                                                <p>Snow</p>
                                                 <p>{`${item.day.daily_chance_of_snow} %`}</p>
                                             </section>
                                             <section>

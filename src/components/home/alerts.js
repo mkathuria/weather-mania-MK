@@ -41,7 +41,7 @@ const useStyles = makeStyles((theme) => ({
         "& > div > section": {
             display: "flex",
             gap: 5,
-            fontSize: 10,
+            fontSize: 12,
             whiteSpace: "nowrap",
             "& p:nth-child(2)": {
                 fontWeight: 600

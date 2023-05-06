@@ -6,12 +6,13 @@ import Chart from "react-apexcharts";
 
 const useStyles = makeStyles((theme) => ({
     main: {
-        width: "25%",
-        padding: "20px 0",
+        maxWidth: "25%",
+        width: "100%",
         borderRadius: theme.spacing(3.75),
-        marginTop: theme.spacing(1.25),
+        marginTop: theme.spacing(2),
         "& .MuiDialogTitle-root": {
-            padding: 0
+            padding: 0,
+            marginTop: 15
         },
         "& .MuiTypography-root": {
             display: "flex",
@@ -26,7 +27,7 @@ const useStyles = makeStyles((theme) => ({
         flexFlow: "column",
         // gap: theme.spacing(2),
         [theme.breakpoints.down("md")]: {
-            width: "100%",
+            maxWidth: "100%",
             padding: 0
         },
         "& .MuiButton-root": {
@@ -67,7 +68,7 @@ const useStyles = makeStyles((theme) => ({
         },
     },
     axis: {
-        fontSize: 10,
+        fontSize: 12,
         textTransform: "none",
         fontWeight: 400,
         colors: theme.palette.background.unique.inverseBlack,

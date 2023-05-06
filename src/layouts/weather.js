@@ -5,7 +5,10 @@ const useStyles = makeStyles((theme) => ({
     container: {
         backgroundColor: theme.palette.background.backgroundBg[5],
         // minHeight: "100vh",
-        padding: 20
+        padding: 20,
+        [theme.breakpoints.down("sm")]: {
+            padding: 0
+        },
     }
 }))
 export const WeatherLayout = () => {

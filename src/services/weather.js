@@ -27,10 +27,11 @@ export const weather = createApi({
                         },
                         {
                             "q": "France",
-                        },
-                        {
-                            "q": "USA",
                         }
+                        // ,
+                        // {
+                        //     "q": "USA",
+                        // }
                     ]
                 },
                 headers: {

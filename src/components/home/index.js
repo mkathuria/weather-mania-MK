@@ -23,8 +23,9 @@ const useStyles = makeStyles((theme) => ({
         padding: theme.spacing(3),
         maxWidth: 1440,
         margin: "auto",
-        [theme.breakpoints.down("xs")]: {
+        [theme.breakpoints.down("sm")]: {
             padding: theme.spacing(2),
+            borderRadius: 0
         },
         scrollbarColor: `${theme.palette.background.main} ${theme.palette.background.main}`,
         "&::-webkit-scrollbar-track": {
@@ -65,9 +66,10 @@ const useStyles = makeStyles((theme) => ({
         alignItems: "center",
         color: theme.palette.background.unique.inverseBlack,
         gap: 5,
-
+        whiteSpace: "nowrap",
+        maxWidth: 250,
         [theme.breakpoints.down("xs")]: {
-            maxWidth: 110
+            maxWidth: 110,
         },
         "& > svg": {
             minWidth: 15
@@ -241,7 +243,7 @@ const HomeComponent = () => {
         getBulkCurrent().then((res) => {
             setBulkData(res.data ? res.data : {})
         });
-    }, [])
+    }, [getBulkCurrent])
     const { data, error } = forecastData;
     const forecastError = error?.data?.error?.message
     const forecast = data
@@ -249,7 +251,7 @@ const HomeComponent = () => {
     return (
 
         forecastData.isLoading || response.isLoading ?
-            <CircularProgress color="success" />
+            <CircularProgress color="primary" />
             :
             <section className={classes.container}>
                 <Header classes={classes} isMobile={isMobile} setAnchorEl={setAnchorEl} anchorEl={anchorEl} setQuery={setQuery} query={query}

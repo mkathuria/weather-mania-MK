@@ -68,7 +68,7 @@ const Map = ({ isDialog, data }) => {
                     }
                 </Geographies>
                 {data.bulk && data.bulk.length && data.bulk.map((item, index) => (
-                    <Marker coordinates={[item.query.location.lon, item.query.location.lat]}>
+                    <Marker key={`marker${index}`} coordinates={[item.query.location.lon, item.query.location.lat]}>
                         <circle r={4} fill={theme.palette.background.frenchGrey[1]} />
                     </Marker>
                 ))}

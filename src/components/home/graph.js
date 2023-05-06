@@ -210,21 +210,21 @@ export default function StatsGraph({ stats, date, bulkData, setQuery }) {
                     open={Boolean(anchorEl)}
                     anchorEl={anchorEl}
                     onClose={() => setAnchorEl(null)}
-                    transformOrigin={{
-                        // horizontal: "center",
-                        vertical: "top"
-                    }}
+                // transformOrigin={{
+                //     // horizontal: "center",
+                //     vertical: "top"
+                // }}
                 >
                     {parameters.map((item, index) => {
                         return (
-                            <div>
+                            <div key={`weather_parameters${index}`}>
                                 <MenuList
                                     onClick={() => {
                                         setParameter(item.value)
                                         setAnchorEl(null)
                                     }}
                                     className={classes.menuItems}
-                                    value={item.value} key={`weather_parameters${index}`}>{item.name}
+                                    value={item.value} >{item.name}
                                 </MenuList>
                                 <Divider />
                             </div>

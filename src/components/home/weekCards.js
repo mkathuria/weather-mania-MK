@@ -105,6 +105,7 @@ const useStyles = makeStyles((theme) => ({
         marginTop: 5,
         fontSize: 12,
         whiteSpace: "nowrap",
+        justifyContent: "space-between",
         "& p:first-child": {
             color: ({ isDays }) => isDays ? theme.palette.background.unique.inverseBlack : theme.palette.background.unique.inverseWhite,
         },
@@ -243,7 +244,7 @@ function WeeklyReport({ reportType, forecastday, current, selectedDate, setSelet
 
                                                 <section>
                                                     <span>
-                                                        <p>Prec</p>
+                                                        <p>Prec chances:</p>
                                                         <p>{`${item.day.daily_chance_of_rain} %`}</p>
                                                     </span>
                                                     <span>
@@ -297,11 +298,11 @@ function WeeklyReport({ reportType, forecastday, current, selectedDate, setSelet
                                                 <p>{`${item.day.maxtemp_c}°C`}</p>
                                             </section>
                                             <section>
-                                                <p>Prec</p>
+                                                <p>Prec chances:</p>
                                                 <p>{`${item.day.daily_chance_of_rain} %`}</p>
                                             </section>
                                             <section>
-                                                <p>Snow</p>
+                                                <p>Snow chances:</p>
                                                 <p>{`${item.day.daily_chance_of_snow} %`}</p>
                                             </section>
                                             <section>

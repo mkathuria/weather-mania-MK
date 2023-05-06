@@ -11,7 +11,13 @@ const useStyle = makeStyles((theme) =>
         "@global": {
             body: {
                 margin: 0,
-                fontFamily: "Montserrat"
+                fontFamily: "Montserrat",
+                "&::-webkit-scrollbar-track": {
+                    background: "#1C1C1C",
+                },
+                "&::-webkit-scrollbar-thumb": {
+                    background: "#1C1C1C",
+                }
             },
             span: {
                 fontFamily: "Montserrat"

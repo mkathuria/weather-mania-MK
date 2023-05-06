@@ -249,13 +249,16 @@ const HomeComponent = () => {
     const forecast = data
 
     return (
-        <section className={classes.container}>
-            <Header classes={classes} isMobile={isMobile} setAnchorEl={setAnchorEl} anchorEl={anchorEl} setQuery={setQuery} query={query}
-                location={forecast?.location}
-            />
-            {forecastData.isLoading ?
-                <CircularProgress color="success" />
-                : <section className={classes.main}>
+
+        forecastData.isLoading ?
+            <CircularProgress color="success" />
+            :
+            <section className={classes.container}>
+                <Header classes={classes} isMobile={isMobile} setAnchorEl={setAnchorEl} anchorEl={anchorEl} setQuery={setQuery} query={query}
+                    location={forecast?.location}
+                />
+
+                <section className={classes.main}>
                     <section className={classes.leftContainer}>
                         <Tabs classes={classes} type={type} setType={setType}
                         />
@@ -272,15 +275,14 @@ const HomeComponent = () => {
                     <StatsGraph stats={forecast} date={selectedDate} bulkData={bulkData} setQuery={setQuery} />
                     <Alerts handleClose={() => setAnchorEl(null)} anchorEl={anchorEl} alerts={forecast?.alerts?.alert} />
                 </section>
-            }
-            <Snackbar
-                TransitionComponent={TransitionLeft}
-                open={Boolean(forecastError)}
-                autoHideDuration={2000}
-                message={forecastError}
-            // onClose={() => dispatch(setForecastError(""))}
-            />
-        </section>
+                <Snackbar
+                    TransitionComponent={TransitionLeft}
+                    open={Boolean(forecastError)}
+                    autoHideDuration={2000}
+                    message={forecastError}
+                // onClose={() => dispatch(setForecastError(""))}
+                />
+            </section>
     )
 }
 
@@ -368,7 +370,7 @@ const Tabs = memo(({ type, setType }) => {
             <header className={classes.tabContainer}>
                 <div>
                     <button className={selected !== 0 ? "buttons-disabled" : ""} onClick={() => setSelected(0)}>Today</button>
-                    <button className={selected !== 1 ? "buttons-disabled" : ""} onClick={() => setSelected(1)}>Tommorow</button>
+                    {/* <button className={selected !== 1 ? "buttons-disabled" : ""} onClick={() => setSelected(1)}>Tommorow</button> */}
                     <button className={selected !== 2 ? "buttons-disabled" : ""} onClick={() => setSelected(2)}>Next 7 days</button>
                 </div>
                 {!isMobile &&

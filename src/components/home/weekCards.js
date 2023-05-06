@@ -189,7 +189,9 @@ function WeeklyReport({ reportType, forecastday, current, selectedDate, setSelet
             {forecastday && forecastday.length && forecastday.map((item, index) => {
                 const aqiData = item.day.air_quality;
                 return (
-                    <Paper key={`weeks_${index}`} className={item.date === selectedDate ? classes.activeDay : classes.daysCard} onClick={() => setSeletedDate(item.date)}>
+                    <Paper key={`weeks_${index}`} className={item.date === selectedDate ? classes.activeDay : classes.daysCard}
+                    // onClick={() => setSeletedDate(item.date)}
+                    >
                         {item.date === selectedDate ?
                             <div className={classes.statsContainer}>
                                 <header className={classes.cardHeader}>
@@ -218,7 +220,8 @@ function WeeklyReport({ reportType, forecastday, current, selectedDate, setSelet
                                                 <p className={classes.currectTemp}>
                                                     {`${current.temp_c}°C`}
                                                 </p>
-                                                <Rainy height={60} width={60} />
+                                                {/* <Rainy height={60} width={60} /> */}
+                                                <img src={item?.day?.condition.icon} alt={item?.day?.condition.text} height={60} width={60} />
 
                                             </section>
                                             <span>
@@ -285,7 +288,9 @@ function WeeklyReport({ reportType, forecastday, current, selectedDate, setSelet
                                 <div className={reportType === "FORECAST" ? classes.flipAnti : classes.flip}>
                                     {reportType === "AQI" ? <AQIData data={aqiData} isDays={true} /> :
                                         <>
-                                            <Rainy height={60} width={60} />
+                                            <img src={item?.day?.condition.icon} alt={item?.day?.condition.text} height={60} width={60} />
+
+                                            {/* <Rainy height={60} width={60} /> */}
                                             <section>
                                                 <p>Min Temp:</p>
                                                 <p>{`${item.day.mintemp_c}°C`}</p>

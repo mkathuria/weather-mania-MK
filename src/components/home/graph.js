@@ -266,7 +266,9 @@ const FamousPlaces = ({ data, setQuery }) => {
                                     {item.query.location.name}
                                 </Typography>
                             </div>
-                            <Rainy height={60} width={60} />
+                            <img src={item?.query?.current?.condition.icon} alt={item?.query?.current?.condition.text} height={60} width={60} />
+
+                            {/* <Rainy height={60} width={60} /> */}
                         </section>
                         <section className={classes.cardBody1}>
                             <Typography className={classes.condition}>

@@ -221,12 +221,14 @@ const HomeComponent = () => {
     const [type, setType] = useState("FORECAST");
     const [anchorEl, setAnchorEl] = useState(null);
     const [query, setQuery] = useState("");
+    const [debounced, setDebouncedValue] = useState("");
     const [selectedDate, setSeletedDate] = useState(moment().format("YYYY-MM-DD"));
     const [bulkData, setBulkData] = useState({})
-    const dispatch = useDispatch();
+    // const dispatch = useDispatch();
 
     useEffect(() => {
         const time = setTimeout(() => {
+            setDebouncedValue(query)
             // dispatch({ type: "user/forecast", payload: query })
         }, 1000)
         return () => {
@@ -235,14 +237,14 @@ const HomeComponent = () => {
     }, [query]);
 
     const [getBulkCurrent, response] = useGetBulkWeatherDataMutation();
-    const forecastData = useGetForecastDataQuery(query ? query : "New Delhi");
+    const forecastData = useGetForecastDataQuery(debounced ? debounced : "New Delhi");
 
     useEffect(() => {
         getBulkCurrent().then((res) => {
             setBulkData(res.data ? res.data : {})
         });
     }, [])
-
+    console.log(forecastData);
     const { data, error } = forecastData;
     const forecastError = error?.data?.error?.message
     const forecast = data
@@ -267,7 +269,7 @@ const HomeComponent = () => {
                             data={bulkData}
                         />
                     </section>
-                    <StatsGraph stats={forecast} date={selectedDate} bulkData={bulkData} />
+                    <StatsGraph stats={forecast} date={selectedDate} bulkData={bulkData} setQuery={setQuery} />
                     <Alerts handleClose={() => setAnchorEl(null)} anchorEl={anchorEl} alerts={forecast?.alerts?.alert} />
                 </section>
             }

@@ -111,7 +111,7 @@ const useStyles = makeStyles((theme) => ({
         overflow: "auto"
     }
 }))
-export default function StatsGraph({ stats, date, bulkData }) {
+export default function StatsGraph({ stats, date, bulkData, setQuery }) {
     const classes = useStyles()
     const parameters = [{
         name: "Temperature",
@@ -237,7 +237,7 @@ export default function StatsGraph({ stats, date, bulkData }) {
             </DialogTitle>
 
             <Chart options={options} series={series} type="bar" width={"100%"} height={240} style={{ marginTop: 32 }} />
-            <FamousPlaces data={bulkData} />
+            <FamousPlaces data={bulkData} setQuery={setQuery} />
         </aside>
     )
 
@@ -245,7 +245,7 @@ export default function StatsGraph({ stats, date, bulkData }) {
 
 
 
-const FamousPlaces = ({ data }) => {
+const FamousPlaces = ({ data, setQuery }) => {
 
     const classes = useStyles()
     return (
@@ -256,7 +256,7 @@ const FamousPlaces = ({ data }) => {
             </DialogTitle>
             <div className={classes.countryCardContainer}>
                 {data.bulk && data.bulk.length && data.bulk.map((item, index) => (
-                    <Card key={`famous_places${index}`} className={classes.countryCard}>
+                    <Card key={`famous_places${index}`} className={classes.countryCard} onClick={() => setQuery(item.query.location.name)}>
                         <section className={classes.cardBody1}>
                             <div>
                                 <Typography className={classes.country}>

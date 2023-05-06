@@ -1,4 +1,4 @@
-import { Dialog, DialogTitle, Divider, Paper, Popover, Typography, makeStyles, styled } from "@material-ui/core"
+import { Dialog, DialogTitle, Divider, Paper, Popover, makeStyles, styled } from "@material-ui/core"
 import { useState } from "react";
 import { ReactComponent as CloseIcon } from "../../assests/close.svg";
 
@@ -92,7 +92,7 @@ export default function Alerts({ anchorEl, handleClose, alerts }) {
             <Divider />
             <aside className={classes.main}>
 
-                {alerts && alerts.length && alerts.map((item, index) => {
+                {alerts && alerts.length ? alerts.map((item, index) => {
                     return (
                         <Paper key={`alerts_${index}`} className={classes.alertCard} onClick={() => showDetails(item)}>
                             <p>
@@ -100,7 +100,7 @@ export default function Alerts({ anchorEl, handleClose, alerts }) {
                             </p>
                         </Paper>
                     )
-                })}
+                }) : "No alerts"}
                 <DetailDialog state={state} setState={setState} />
             </aside>
         </StyledPopover>

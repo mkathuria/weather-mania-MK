@@ -67,9 +67,9 @@ export const GlobalStyle = ({ children }) => {
     )
 }
 
-export const getCurrentTheme = () => "dark"
-    // localStorage.getItem(LOCAL_THEME) ||
-    // (window.matchMedia &&
-    //     window.matchMedia("(prefers-color-scheme: dark)").matches
-    //     ? DARK_THEME
-    //     : DEFAULT_THEME);
+export const getCurrentTheme = () =>
+    localStorage.getItem(LOCAL_THEME) ||
+    (window.matchMedia &&
+        window.matchMedia("(prefers-color-scheme: dark)").matches
+        ? DARK_THEME
+        : DEFAULT_THEME);

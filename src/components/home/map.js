@@ -6,7 +6,7 @@ import { useState } from "react";
 
 const useStyles = makeStyles((theme) => ({
     container: {
-        marginTop: theme.spacing(3)
+        marginTop: 30
     },
     titleContainer: {
         color: theme.palette.background.unique.inverseBlack,
@@ -35,7 +35,7 @@ const useStyles = makeStyles((theme) => ({
         width: "100%",
         background: theme.palette.background.neutral[50],
         borderRadius: ({ isDialog }) => isDialog ? 0 : theme.spacing(2.5),
-        marginTop: ({ isDialog }) => isDialog ? 0 : theme.spacing(3)
+        marginTop: ({ isDialog }) => isDialog ? 0 : 30
     }
 }))
 export default function MapComponent({ data, setQuery }) {
@@ -46,7 +46,7 @@ export default function MapComponent({ data, setQuery }) {
         <section className={classes.container}>
             <section className={classes.titleContainer}>
                 <Typography>Global Map</Typography>
-                <Button onClick={() => setOpen(true)}>View wide</Button>
+                {/* <Button onClick={() => setOpen(true)}>View wide</Button> */}
             </section>
             <Map data={data} setQuery={setQuery} />
             <WideMap classes={classes} setOpen={setOpen} open={open} data={data} setQuery={setQuery} />
@@ -102,7 +102,8 @@ const WideMap = ({ setOpen, open, data, setQuery }) => {
         <CustomDialog open={open}>
             <DialogTitle>
                 <span> Global View</span>
-                <CloseIcon onClick={() => setOpen(false)} /></DialogTitle>
+                <CloseIcon onClick={() => setOpen(false)} />
+            </DialogTitle>
             <Map isDialog={true} data={data} setQuery={setQuery} />
         </CustomDialog>
     )

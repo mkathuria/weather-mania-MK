@@ -30,7 +30,7 @@ const useStyles = makeStyles((theme) => ({
         borderRadius: theme.spacing(2),
         textAlign: "center",
         width: theme.spacing(17),
-        background: theme.palette.background.main,
+        background: theme.palette.type.includes("light") ? theme.palette.background.unique.inverseBlack : theme.palette.background.main,
         padding: 10,
         "& p": {
             margin: 0
@@ -71,7 +71,7 @@ const useStyles = makeStyles((theme) => ({
     activeDay: {
         width: 260,
         height: "fit-content",
-        background: theme.palette.background.frenchGrey[1],
+        background: theme.palette.type.includes("light") ? theme.palette.background.frenchGrey[5] : theme.palette.background.frenchGrey[1],
         borderRadius: theme.spacing(2),
         "& p": {
             margin: 0,
@@ -83,7 +83,7 @@ const useStyles = makeStyles((theme) => ({
         borderTopRightRadius: theme.spacing(2),
         borderTopLeftRadius: theme.spacing(2),
         padding: 10,
-        background: theme.palette.background.frenchGrey[4],
+        background: theme.palette.type.includes("light") ? theme.palette.background.frenchGrey[6] : theme.palette.background.frenchGrey[4],
         color: theme.palette.background.unique.inverseWhite,
         display: "flex",
         justifyContent: "space-between",
@@ -106,10 +106,10 @@ const useStyles = makeStyles((theme) => ({
         whiteSpace: "nowrap",
         justifyContent: "space-between",
         "& p:first-child": {
-            color: ({ isDays }) => isDays ? theme.palette.background.unique.inverseBlack : theme.palette.background.unique.inverseWhite,
+            color: ({ isDays }) => isDays ? theme.palette.type.includes("light") ? theme.palette.background.unique.inverseWhite : theme.palette.background.unique.inverseBlack : theme.palette.background.unique.inverseWhite,
         },
         "& p:nth-child(2)": {
-            color: ({ isDays }) => isDays ? theme.palette.background.unique.inverseBlack : theme.palette.background.unique.inverseWhite,
+            color: ({ isDays }) => isDays ? theme.palette.type.includes("light") ? theme.palette.background.unique.inverseWhite : theme.palette.background.unique.inverseBlack : theme.palette.background.unique.inverseWhite,
             fontWeight: 600
         },
     },
@@ -133,8 +133,10 @@ const useStyles = makeStyles((theme) => ({
         }
     },
     statsContainer: {
+        color: theme.palette.type.includes("light") ? theme.palette.background.unique.inverseWhite : "",
         "& .MuiDivider-root": {
             marginTop: theme.spacing(1),
+            background: theme.palette.type.includes("light") ? theme.palette.background.frenchGrey[1] : "",
         },
         "& .stats": {
             padding: "8px 10px 10px 10px",

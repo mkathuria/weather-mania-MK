@@ -3,12 +3,11 @@ import { Outlet } from "react-router-dom"
 
 const useStyles = makeStyles((theme) => ({
     container: {
-        // backgroundColor: theme.palette.background.backgroundBg[5],
-        // // minHeight: "100vh",
-        // padding: 20,
-        // [theme.breakpoints.down("sm")]: {
-        //     padding: 0
-        // },
+        backgroundColor: "#717172",
+        [theme.breakpoints.up("xl")]: {
+            display: "flex",
+            minHeight: "100vh"
+        },
     }
 }))
 export const WeatherLayout = () => {

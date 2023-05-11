@@ -27,6 +27,8 @@ export const newLightColors = {
         [2]: "#BFC9D2",
         [3]: "#BAC5CE",
         [4]: "#B3BFC9",
+        [5]: "#748B9D",
+        [6]: "#667D90",
     },
     neutral: {
         [25]: "#fafafa",

@@ -72,7 +72,7 @@ const useStyles = makeStyles((theme) => ({
     countryCard: {
         minHeight: theme.spacing(10.5),
         borderRadius: theme.spacing(3),
-        background: theme.palette.background.main,
+        background: theme.palette.type.includes("light") ? theme.palette.background.unique.inverseBlack : theme.palette.background.main,
         padding: theme.spacing(2)
     },
     cardBody1: {
@@ -86,18 +86,19 @@ const useStyles = makeStyles((theme) => ({
     },
     temperature: {
         fontSize: 20,
-        colors: theme.palette.background.unique.inverseBlack,
+        color: theme.palette.type.includes("light") ? theme.palette.background.unique.inverseWhite : theme.palette.background.unique.inverseBlack,
     },
     place: {
         fontSize: 18,
-        colors: theme.palette.background.unique.inverseBlack,
+        color: theme.palette.type.includes("light") ? theme.palette.background.unique.inverseWhite : theme.palette.background.unique.inverseBlack,
     },
     condition: {
         fontSize: 14,
         overflow: "hidden",
         textOverflow: "ellipsis",
         maxWidth: 150,
-        whiteSpace: "nowrap"
+        whiteSpace: "nowrap",
+        color: theme.palette.type.includes("light") ? theme.palette.background.unique.inverseWhite : theme.palette.background.unique.inverseBlack,
     },
     countryCardContainer: {
         display: "flex",
@@ -171,7 +172,7 @@ export default function StatsGraph({ stats, date, bulkData, setQuery }) {
         tooltip: {
             theme: theme.palette.type
         },
-        colors: [theme.palette.background.frenchGrey[0]],
+        colors: [theme.palette.type.includes("light") ? theme.palette.background.frenchGrey[5] : theme.palette.background.frenchGrey[0]],
         dataLabels: {
             enabled: false
         },

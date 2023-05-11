@@ -23,9 +23,10 @@ const useStyles = makeStyles((theme) => ({
         padding: theme.spacing(2),
         maxWidth: 1500,
         margin: "auto",
-        [theme.breakpoints.down("lg")]: {
+        [theme.breakpoints.down("md")]: {
             padding: theme.spacing(2),
-            borderRadius: 0
+            borderRadius: 0,
+            maxWidth: "100%"
         },
         scrollbarColor: `${theme.palette.background.main} ${theme.palette.background.main}`,
         "&::-webkit-scrollbar-track": {
@@ -143,6 +144,8 @@ const useStyles = makeStyles((theme) => ({
             display: "flex",
             gap: theme.spacing(2),
             cursor: "pointer",
+            color: theme.palette.background.unique.inverseBlack,
+            fontSize: 20,
             "& > button": {
                 border: "none",
                 outline: "none",
@@ -172,7 +175,7 @@ const useStyles = makeStyles((theme) => ({
         "&  > section": {
             width: ({ themeButton }) => themeButton ? 40 : "50%",
             height: theme.spacing(5),
-            background: theme.palette.background.frenchGrey[1],
+            background: theme.palette.type.includes("light") ? theme.palette.background.frenchGrey[5] : theme.palette.background.frenchGrey[1],
             transform: ({ checked, themeButton }) => checked === "AQI" || checked?.includes(DEFAULT_THEME) ? `translateX(${themeButton ? 40 : 100}px)` : "translateX(0px)",
             transition: "transform 300ms linear",
             position: "absolute",
@@ -360,7 +363,7 @@ const ThemeSwitch = () => {
 
 
 const Tabs = memo(({ type, setType }) => {
-    const [selected, setSelected] = useState(0);
+    // const [selected, setSelected] = useState(0);
     const classes = useStyles({ checked: type, marginTop: 16 })
     const theme = useTheme()
     const isMobile = useMediaQuery(theme.breakpoints.down("xs"))
@@ -370,9 +373,10 @@ const Tabs = memo(({ type, setType }) => {
         <>
             <header className={classes.tabContainer}>
                 <div>
-                    <button className={selected !== 0 ? "buttons-disabled" : ""} onClick={() => setSelected(0)}>Today</button>
-                    {/* <button className={selected !== 1 ? "buttons-disabled" : ""} onClick={() => setSelected(1)}>Tommorow</button> */}
-                    <button className={selected !== 2 ? "buttons-disabled" : ""} onClick={() => setSelected(2)}>Next 7 days</button>
+                    Forecast
+                    {/* <button className={selected !== 0 ? "buttons-disabled" : ""} onClick={() => setSelected(0)}>Today</button>
+                    <button className={selected !== 1 ? "buttons-disabled" : ""} onClick={() => setSelected(1)}>Tommorow</button> 
+                    <button className={selected !== 2 ? "buttons-disabled" : ""} onClick={() => setSelected(2)}>Next 7 days</button> */}
                 </div>
                 {!isMobile &&
                     <RightTab classes={classes} setType={setType} type={type} />

@@ -21,9 +21,9 @@ const useStyles = makeStyles((theme) => ({
         height: "100%",
         borderRadius: theme.spacing(3.75),
         padding: theme.spacing(2),
-        maxWidth: 1440,
+        maxWidth: 1500,
         margin: "auto",
-        [theme.breakpoints.down("sm")]: {
+        [theme.breakpoints.down("lg")]: {
             padding: theme.spacing(2),
             borderRadius: 0
         },
@@ -270,6 +270,7 @@ const HomeComponent = () => {
                         />
                         <MapComponent
                             data={bulkData}
+                            setQuery={setQuery}
                         />
                     </section>
                     <StatsGraph stats={forecast} date={selectedDate} bulkData={bulkData} setQuery={setQuery} />

@@ -1,6 +1,6 @@
 import { ComposableMap, Geographies, Geography, Marker, ZoomableGroup } from "react-simple-maps";
 import features from "./features.json"
-import { Button, Dialog, DialogTitle, Typography, makeStyles, styled, useTheme } from "@material-ui/core";
+import { Button, Dialog, DialogTitle, Tooltip, Typography, makeStyles, styled, useTheme } from "@material-ui/core";
 import { ReactComponent as CloseIcon } from "../../assests/close.svg";
 import { useState } from "react";
 
@@ -38,7 +38,7 @@ const useStyles = makeStyles((theme) => ({
         marginTop: ({ isDialog }) => isDialog ? 0 : theme.spacing(3)
     }
 }))
-export default function MapComponent({ data }) {
+export default function MapComponent({ data, setQuery }) {
     const classes = useStyles()
     const [open, setOpen] = useState(false)
 
@@ -48,18 +48,18 @@ export default function MapComponent({ data }) {
                 <Typography>Global Map</Typography>
                 <Button onClick={() => setOpen(true)}>View wide</Button>
             </section>
-            <Map data={data} />
-            <WideMap classes={classes} setOpen={setOpen} open={open} data={data} />
+            <Map data={data} setQuery={setQuery} />
+            <WideMap classes={classes} setOpen={setOpen} open={open} data={data} setQuery={setQuery} />
         </section>
     )
 }
 
-const Map = ({ isDialog, data }) => {
+const Map = ({ isDialog, data, setQuery }) => {
     const classes = useStyles({ isDialog });
     const theme = useTheme()
     return (
         <ComposableMap className={classes.mapContainer}>
-            <ZoomableGroup zoom={2} center={[10, 10]}>
+            <ZoomableGroup zoom={1.5} minZoom={1.5} maxZoom={1.5} center={[10, 10]} disableZooming={true}>
                 <Geographies geography={features}>
                     {({ geographies }) =>
                         geographies.map((geo) => (
@@ -68,9 +68,11 @@ const Map = ({ isDialog, data }) => {
                     }
                 </Geographies>
                 {data.bulk && data.bulk.length && data.bulk.map((item, index) => (
-                    <Marker key={`marker${index}`} coordinates={[item.query.location.lon, item.query.location.lat]}>
-                        <circle r={4} fill={theme.palette.background.frenchGrey[1]} />
-                    </Marker>
+                    <Tooltip arrow={true} title={item?.query?.location?.name}>
+                        <Marker key={`marker${index}`} coordinates={[item?.query?.location?.lon, item?.query?.location?.lat]}>
+                            <circle r={6} fill={theme.palette.background.frenchGrey[1]} onClick={() => setQuery(item?.query?.location?.name)} style={{ cursor: "pointer" }} />
+                        </Marker>
+                    </Tooltip>
                 ))}
             </ZoomableGroup>
         </ComposableMap>
@@ -95,13 +97,13 @@ const CustomDialog = styled(Dialog)({
     }
 })
 
-const WideMap = ({ setOpen, open, data }) => {
+const WideMap = ({ setOpen, open, data, setQuery }) => {
     return (
         <CustomDialog open={open}>
             <DialogTitle>
                 <span> Global View</span>
                 <CloseIcon onClick={() => setOpen(false)} /></DialogTitle>
-            <Map isDialog={true} data={data} />
+            <Map isDialog={true} data={data} setQuery={setQuery} />
         </CustomDialog>
     )
 }

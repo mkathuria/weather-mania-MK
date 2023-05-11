@@ -23,15 +23,29 @@ export const weather = createApi({
                             "q": "New Delhi",
                         },
                         {
+                            "q": "Irkutsk",
+                        },
+                        {
                             "q": "London",
                         },
                         {
-                            "q": "France",
-                        }
-                        // ,
-                        // {
-                        //     "q": "USA",
-                        // }
+                            "q": "Tokyo",
+                        },
+                        {
+                            "q": "New York",
+                        },
+                        {
+                            "q": "Beijing",
+                        },
+                        {
+                            "q": "Johannesburg",
+                        },
+                        {
+                            "q": "Auckland",
+                        },
+                        {
+                            "q": "Sydney",
+                        },
                     ]
                 },
                 headers: {

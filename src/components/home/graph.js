@@ -1,5 +1,5 @@
 
-import { Button, Card, DialogTitle, Divider, Menu, MenuList, Typography, makeStyles, useTheme } from "@material-ui/core";
+import { Button, Card, DialogTitle, Divider, Menu, MenuList, Tooltip, Typography, makeStyles, useTheme } from "@material-ui/core";
 import moment from "moment";
 import { useState } from "react";
 import Chart from "react-apexcharts";
@@ -10,19 +10,6 @@ const useStyles = makeStyles((theme) => ({
         width: "100%",
         borderRadius: theme.spacing(3.75),
         marginTop: theme.spacing(2),
-        "& .MuiDialogTitle-root": {
-            padding: 0,
-            marginTop: 15
-        },
-        "& .MuiTypography-root": {
-            display: "flex",
-            alignItems: "center",
-            justifyContent: "space-between",
-            color: theme.palette.background.unique.inverseBlack,
-            "& > svg": {
-                cursor: "pointer"
-            },
-        },
         display: "flex",
         flexFlow: "column",
         // gap: theme.spacing(2),
@@ -46,6 +33,15 @@ const useStyles = makeStyles((theme) => ({
         "& .apexchartsp42c1ht2": {
             width: "100%"
         }
+    },
+    header: {
+        padding: 0,
+        marginTop: 15,
+        alignItems: "center",
+        display: "flex",
+        fontSize: 20,
+        justifyContent: "space-between",
+        color: theme.palette.background.unique.inverseBlack,
     },
     menuItems: {
         cursor: "pointer",
@@ -98,7 +94,10 @@ const useStyles = makeStyles((theme) => ({
     },
     condition: {
         fontSize: 14,
-        colors: theme.palette.background.unique.inverseBlack,
+        overflow: "hidden",
+        textOverflow: "ellipsis",
+        maxWidth: 150,
+        whiteSpace: "nowrap"
     },
     countryCardContainer: {
         display: "flex",
@@ -169,6 +168,9 @@ export default function StatsGraph({ stats, date, bulkData, setQuery }) {
                 columnWidth: '50%',
             }
         },
+        tooltip: {
+            theme: theme.palette.type
+        },
         colors: [theme.palette.background.frenchGrey[0]],
         dataLabels: {
             enabled: false
@@ -202,7 +204,7 @@ export default function StatsGraph({ stats, date, bulkData, setQuery }) {
 
     return (
         <aside className={classes.main}>
-            <DialogTitle>
+            <section className={classes.header}>
                 <span>Parameters</span>
                 <Button onClick={(e) => setAnchorEl(e.currentTarget)}> {parameters.find((item => item.value === parameter)).name}</Button>
                 <Menu
@@ -232,7 +234,7 @@ export default function StatsGraph({ stats, date, bulkData, setQuery }) {
                         )
                     })}
                 </Menu>
-            </DialogTitle>
+            </section>
 
             <Chart options={options} series={series} type="bar" width={"100%"} height={240} style={{ marginTop: 32 }} />
             <FamousPlaces data={bulkData} setQuery={setQuery} />
@@ -248,20 +250,19 @@ const FamousPlaces = ({ data, setQuery }) => {
     const classes = useStyles()
     return (
         <>
-            <DialogTitle>
-                <span>Famous Places</span>
-                {/* <RightArrow /> */}
+            <DialogTitle className={classes.header}>
+                Famous Places
             </DialogTitle>
             <div className={classes.countryCardContainer}>
-                {data.bulk && data.bulk.length && data.bulk.map((item, index) => (
-                    <Card key={`famous_places${index}`} className={classes.countryCard} onClick={() => setQuery(item.query.location.name)}>
+                {data && data.bulk && data.bulk.length && data.bulk.map((item, index) => (
+                    item?.query?.location?.name && <Card key={`famous_places${index}`} className={classes.countryCard} onClick={() => setQuery(item?.query?.location?.name)}>
                         <section className={classes.cardBody1}>
                             <div>
                                 <Typography className={classes.country}>
-                                    {item.query.location.country}
+                                    {item?.query?.location?.country}
                                 </Typography>
                                 <Typography className={classes.place}>
-                                    {item.query.location.name}
+                                    {item?.query?.location?.name}
                                 </Typography>
                             </div>
                             <img src={item?.query?.current?.condition.icon} alt={item?.query?.current?.condition.text} height={60} width={60} />
@@ -269,11 +270,13 @@ const FamousPlaces = ({ data, setQuery }) => {
                             {/* <Rainy height={60} width={60} /> */}
                         </section>
                         <section className={classes.cardBody1}>
-                            <Typography className={classes.condition}>
-                                {item.query.current.condition.text}
-                            </Typography>
+                            <Tooltip title={item?.query?.current?.condition?.text} arrow={true}>
+                                <Typography className={classes.condition}>
+                                    {item?.query?.current?.condition?.text}
+                                </Typography>
+                            </Tooltip>
                             <Typography className={classes.temperature}>
-                                {`${item.query.current.temp_c}°C`}
+                                {`${item?.query?.current?.temp_c}°C`}
                             </Typography>
                         </section>
                     </Card>

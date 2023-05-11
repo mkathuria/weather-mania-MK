@@ -11,7 +11,7 @@ const useStyle = makeStyles((theme) =>
         "@global": {
             body: {
                 margin: 0,
-                fontFamily: "Montserrat",
+                fontFamily: "Montserrat !important",
                 "&::-webkit-scrollbar-track": {
                     background: "#1C1C1C",
                 },
@@ -32,7 +32,7 @@ const useStyle = makeStyles((theme) =>
                 fontFamily: "Montserrat"
             },
             ".MuiTypography-root": {
-                fontFamily: "Montserrat"
+                fontFamily: "Montserrat !important"
             },
             "p": {
                 fontFamily: "Montserrat"

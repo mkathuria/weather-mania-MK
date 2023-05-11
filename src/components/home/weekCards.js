@@ -27,10 +27,9 @@ const useStyles = makeStyles((theme) => ({
     },
     daysCard: {
         height: "fit-content",
-        width: "100%",
         borderRadius: theme.spacing(2),
         textAlign: "center",
-        maxWidth: theme.spacing(15),
+        width: theme.spacing(17),
         background: theme.palette.background.main,
         padding: 10,
         "& p": {
@@ -220,18 +219,17 @@ function WeeklyReport({ reportType, forecastday, current, selectedDate, setSelet
                                                     {`${current.temp_c}°C`}
                                                 </p>
                                                 <img src={item?.day?.condition.icon} alt={item?.day?.condition.text} />
-
                                             </section>
-                                            <span>
-                                                <p>Real Feel:</p>
-                                                <p>{`${current.feelslike_c}°C`}</p>
-                                            </span>
-                                            <span>
-                                                <p>Humidity:</p>
-                                                <p>{`${current.humidity}°C`}</p>
-                                            </span>
                                             <div className={classes.bottomStats}>
                                                 <section>
+                                                    <span>
+                                                        <p>Real Feel:</p>
+                                                        <p>{`${current.feelslike_c}°C`}</p>
+                                                    </span>
+                                                    <span>
+                                                        <p>Humidity:</p>
+                                                        <p>{`${current.humidity}°C`}</p>
+                                                    </span>
                                                     <span>
                                                         <p>Wind:</p>
                                                         <p>{`${current.wind_kph} Km/h`}</p>
@@ -355,11 +353,11 @@ const AQIData = ({ data, isDays, activeDay }) => {
             </section>
             <section className={classes.fields}>
                 <p>US-EPA standard:</p>
-                <p>{data['us-epa-index']}</p>
+                <p>{data['us-epa-index'] || "-"}</p>
             </section>
             <section className={classes.fields}>
                 <p>UK Defra Index:</p>
-                <p>{data['gb-defra-index']}</p>
+                <p>{data['gb-defra-index'] || "-"}</p>
             </section>
         </div>
     )

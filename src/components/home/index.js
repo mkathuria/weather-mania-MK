@@ -20,7 +20,6 @@ const useStyles = makeStyles((theme) => ({
     container: {
         backgroundColor: theme.palette.background.unique.inverseWhite,
         height: "100%",
-        width: "100%",
         borderRadius: theme.spacing(3.75),
         padding: theme.spacing(2),
         maxWidth: 1500,

@@ -14,11 +14,13 @@ import { ReactComponent as SunIcon } from "../../assests/light_mode.svg";
 import { ReactComponent as MoonIcon } from "../../assests/dark_mode.svg";
 import moment from "moment"
 import { useGetBulkWeatherDataMutation, useGetForecastDataQuery } from "../../services/weather"
+import { useNavigate } from "react-router-dom"
 
 const useStyles = makeStyles((theme) => ({
     container: {
         backgroundColor: theme.palette.background.unique.inverseWhite,
         height: "100%",
+        width: "100%",
         borderRadius: theme.spacing(3.75),
         padding: theme.spacing(2),
         maxWidth: 1500,
@@ -253,14 +255,14 @@ const HomeComponent = () => {
 
     return (
 
-        forecastData.isLoading || response.isLoading ?
-            <CircularProgress color="primary" />
-            :
-            <section className={classes.container}>
-                <Header classes={classes} isMobile={isMobile} setAnchorEl={setAnchorEl} anchorEl={anchorEl} setQuery={setQuery} query={query}
-                    location={forecast?.location}
-                />
 
+        <section className={classes.container}>
+            <Header classes={classes} isMobile={isMobile} setAnchorEl={setAnchorEl} anchorEl={anchorEl} setQuery={setQuery} query={query}
+                location={forecast?.location}
+            />
+            {forecastData.isLoading || response.isLoading ?
+                <CircularProgress color="primary" />
+                :
                 <section className={classes.main}>
                     <section className={classes.leftContainer}>
                         <Tabs classes={classes} type={type} setType={setType}
@@ -278,15 +280,15 @@ const HomeComponent = () => {
                     </section>
                     <StatsGraph stats={forecast} date={selectedDate} bulkData={bulkData} setQuery={setQuery} />
                     <Alerts handleClose={() => setAnchorEl(null)} anchorEl={anchorEl} alerts={forecast?.alerts?.alert} />
-                </section>
-                <Snackbar
-                    TransitionComponent={TransitionLeft}
-                    open={Boolean(forecastError)}
-                    autoHideDuration={2000}
-                    message={forecastError}
-                // onClose={() => dispatch(setForecastError(""))}
-                />
-            </section>
+                </section>}
+            <Snackbar
+                TransitionComponent={TransitionLeft}
+                open={Boolean(forecastError)}
+                autoHideDuration={2000}
+                message={forecastError}
+            // onClose={() => dispatch(setForecastError(""))}
+            />
+        </section>
     )
 }
 
@@ -299,12 +301,12 @@ const Header = (props) => {
 
 
     const { classes, isMobile, setAnchorEl, anchorEl, location } = props
-
+    const navigate = useNavigate()
     return (
         <>
             <header className={classes.nav}>
                 <section className={classes.headerChild}>
-                    <IconButton className={classes.headerIcons} aria-label="home">
+                    <IconButton className={classes.headerIcons} aria-label="home" onClick={() => navigate("/news")}>
                         <HomeIcon />
                     </IconButton>
                     <IconButton className={classes.headerIcons} aria-label="home" onClick={(e) => setAnchorEl(anchorEl ? null : e.currentTarget)}>

@@ -6,7 +6,7 @@ export const weather = createApi({
     endpoints: (builder) => ({
         getForecastData: builder.query({
             query: (payload) => ({
-                url: `/forecast.json?key=7b0f376bf5564d138f5133940230305&q=${payload}&days=7&alerts=yes&aqi=yes`,
+                url: `/forecast.json?key=42435fa1f48547ef9a482238233105&q=${payload}&days=7&alerts=yes&aqi=yes`,
                 method: 'GET',
                 headers: {
                     'Content-type': 'application/json',
@@ -15,7 +15,7 @@ export const weather = createApi({
         }),
         getBulkWeatherData: builder.mutation({
             query: () => ({
-                url: '/current.json?key=7b0f376bf5564d138f5133940230305&q=bulk',
+                url: '/current.json?key=42435fa1f48547ef9a482238233105&q=bulk',
                 method: 'POST',
                 body: {
                     "locations": [

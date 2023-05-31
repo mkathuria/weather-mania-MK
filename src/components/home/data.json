@@ -1,0 +1,1566 @@
+{
+    "status": "OK",
+    "copyright": "Copyright (c) 2023 The New York Times Company. All Rights Reserved.",
+    "section": "home",
+    "last_updated": "2023-05-31T07:07:26-04:00",
+    "num_results": 25,
+    "results": [
+        {
+            "section": "us",
+            "subsection": "politics",
+            "title": "House Set to Vote on Debt Limit Bill as Republican Resistance Grows",
+            "abstract": "Speaker Kevin McCarthy was working to cobble together the votes to push through the compromise he struck with President Biden, as lawmakers in both parties signaled their displeasure with the plan.",
+            "url": "https://www.nytimes.com/2023/05/31/us/politics/debt-ceiling-house-vote.html",
+            "uri": "nyt://article/2404a58a-9ad1-5219-a21b-df8aa11be9b7",
+            "byline": "By Catie Edmondson",
+            "item_type": "Article",
+            "updated_date": "2023-05-31T05:00:12-04:00",
+            "created_date": "2023-05-31T05:00:12-04:00",
+            "published_date": "2023-05-31T05:00:12-04:00",
+            "material_type_facet": "",
+            "kicker": "",
+            "des_facet": [
+                "United States Politics and Government",
+                "Law and Legislation",
+                "Welfare (US)",
+                "Federal Budget (US)",
+                "National Debt (US)"
+            ],
+            "org_facet": [
+                "Congressional Budget Office",
+                "House of Representatives",
+                "House Committee on Rules"
+            ],
+            "per_facet": [
+                "Biden, Joseph R Jr",
+                "McCarthy, Kevin (1965- )",
+                "Jeffries, Hakeem",
+                "Bishop, J Daniel (1964- )"
+            ],
+            "geo_facet": [],
+            "multimedia": [
+                {
+                    "url": "https://static01.nyt.com/images/2023/05/31/multimedia/31dc-cong-jvbt/31dc-cong-jvbt-superJumbo.jpg",
+                    "format": "Super Jumbo",
+                    "height": 1365,
+                    "width": 2048,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "“I’m confident we’ll pass the bill,” Speaker Kevin McCarthy told reporters at the Capitol on Tuesday.",
+                    "copyright": "Kenny Holston/The New York Times"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2023/05/31/multimedia/31dc-cong-jvbt/31dc-cong-jvbt-threeByTwoSmallAt2X.jpg",
+                    "format": "threeByTwoSmallAt2X",
+                    "height": 400,
+                    "width": 600,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "“I’m confident we’ll pass the bill,” Speaker Kevin McCarthy told reporters at the Capitol on Tuesday.",
+                    "copyright": "Kenny Holston/The New York Times"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2023/05/31/multimedia/31dc-cong-jvbt/31dc-cong-jvbt-thumbLarge.jpg",
+                    "format": "Large Thumbnail",
+                    "height": 150,
+                    "width": 150,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "“I’m confident we’ll pass the bill,” Speaker Kevin McCarthy told reporters at the Capitol on Tuesday.",
+                    "copyright": "Kenny Holston/The New York Times"
+                }
+            ],
+            "short_url": "https://nyti.ms/43C86mP"
+        },
+        {
+            "section": "us",
+            "subsection": "politics",
+            "title": "14th Amendment Questions Linger Despite Debt Limit Deal",
+            "abstract": "President Biden has been considering ways to challenge the constitutionality of the debt limit to defuse the risk of default.",
+            "url": "https://www.nytimes.com/2023/05/31/us/politics/14th-amendment-debt-ceiling.html",
+            "uri": "nyt://article/3282d0a5-06ca-5b5c-b291-102ad7ccfbab",
+            "byline": "By Alan Rappeport",
+            "item_type": "Article",
+            "updated_date": "2023-05-31T03:00:14-04:00",
+            "created_date": "2023-05-31T03:00:14-04:00",
+            "published_date": "2023-05-31T03:00:14-04:00",
+            "material_type_facet": "",
+            "kicker": "",
+            "des_facet": [
+                "United States Politics and Government",
+                "Fourteenth Amendment (US Constitution)",
+                "Federal Budget (US)",
+                "National Debt (US)"
+            ],
+            "org_facet": [
+                "House of Representatives",
+                "National Assn of Government Employees",
+                "Treasury Department"
+            ],
+            "per_facet": [
+                "Biden, Joseph R Jr"
+            ],
+            "geo_facet": [],
+            "multimedia": [
+                {
+                    "url": "https://static01.nyt.com/images/2023/05/30/multimedia/30dc-14thamendment-jbcm/30dc-14thamendment-jbcm-superJumbo.jpg",
+                    "format": "Super Jumbo",
+                    "height": 1366,
+                    "width": 2048,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "President Biden reiterated on Sunday that he was considering how the 14th Amendment could apply to the debt limit.",
+                    "copyright": "Pete Marovich for The New York Times"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2023/05/30/multimedia/30dc-14thamendment-jbcm/30dc-14thamendment-jbcm-threeByTwoSmallAt2X.jpg",
+                    "format": "threeByTwoSmallAt2X",
+                    "height": 400,
+                    "width": 600,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "President Biden reiterated on Sunday that he was considering how the 14th Amendment could apply to the debt limit.",
+                    "copyright": "Pete Marovich for The New York Times"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2023/05/30/multimedia/30dc-14thamendment-jbcm/30dc-14thamendment-jbcm-thumbLarge.jpg",
+                    "format": "Large Thumbnail",
+                    "height": 150,
+                    "width": 150,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "President Biden reiterated on Sunday that he was considering how the 14th Amendment could apply to the debt limit.",
+                    "copyright": "Pete Marovich for The New York Times"
+                }
+            ],
+            "short_url": "https://nyti.ms/3oCjzUm"
+        },
+        {
+            "section": "us",
+            "subsection": "politics",
+            "title": "Packing Figures and Charts, Roy Leads G.O.P. Revolt Against Debt Limit Deal",
+            "abstract": "The Texas Republican, who is the policy director for the hard-right House Freedom Caucus, has become the face of Republican opposition to a compromise forged to avert a federal default.",
+            "url": "https://www.nytimes.com/2023/05/31/us/politics/chip-roy-debt-ceiling-deal.html",
+            "uri": "nyt://article/0d0ca319-27c8-5257-94af-0d9dcaacc12f",
+            "byline": "By Luke Broadwater",
+            "item_type": "Article",
+            "updated_date": "2023-05-31T05:00:27-04:00",
+            "created_date": "2023-05-31T05:00:27-04:00",
+            "published_date": "2023-05-31T05:00:27-04:00",
+            "material_type_facet": "",
+            "kicker": "",
+            "des_facet": [
+                "United States Politics and Government",
+                "Federal Budget (US)",
+                "National Debt (US)",
+                "Content Type: Personal Profile"
+            ],
+            "org_facet": [
+                "House of Representatives",
+                "House Freedom Caucus",
+                "Republican Party"
+            ],
+            "per_facet": [
+                "Roy, Chip (1972- )",
+                "McCarthy, Kevin (1965- )"
+            ],
+            "geo_facet": [],
+            "multimedia": [
+                {
+                    "url": "https://static01.nyt.com/images/2023/05/30/multimedia/30dc-roy-wqpb/30dc-roy-wqpb-superJumbo.jpg",
+                    "format": "Super Jumbo",
+                    "height": 1365,
+                    "width": 2048,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Representative Chip Roy has been circulating documents breaking down ways he believes Speaker Kevin McCarthy’s debt limit deal betrays conservatives.",
+                    "copyright": "Haiyun Jiang for The New York Times"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2023/05/30/multimedia/30dc-roy-wqpb/30dc-roy-wqpb-threeByTwoSmallAt2X.jpg",
+                    "format": "threeByTwoSmallAt2X",
+                    "height": 400,
+                    "width": 600,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Representative Chip Roy has been circulating documents breaking down ways he believes Speaker Kevin McCarthy’s debt limit deal betrays conservatives.",
+                    "copyright": "Haiyun Jiang for The New York Times"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2023/05/30/multimedia/30dc-roy-wqpb/30dc-roy-wqpb-thumbLarge.jpg",
+                    "format": "Large Thumbnail",
+                    "height": 150,
+                    "width": 150,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Representative Chip Roy has been circulating documents breaking down ways he believes Speaker Kevin McCarthy’s debt limit deal betrays conservatives.",
+                    "copyright": "Haiyun Jiang for The New York Times"
+                }
+            ],
+            "short_url": "https://nyti.ms/3IJftko"
+        },
+        {
+            "section": "world",
+            "subsection": "asia",
+            "title": "Fake Signals and American Insurance: How a Dark Fleet Moves Russian Oil",
+            "abstract": "The New York Times tracked several oil tankers faking their locations while transporting Russian oil currently under Western sanctions, in an apparent effort to deceive their American insurer.",
+            "url": "https://www.nytimes.com/interactive/2023/05/30/world/asia/russia-oil-ships-sanctions.html",
+            "uri": "nyt://interactive/77eabfde-bb56-53d4-80ed-043f225eefaf",
+            "byline": "By Christiaan Triebert, Blacki Migliozzi, Alexander Cardia, Muyi Xiao and David Botti",
+            "item_type": "Interactive",
+            "updated_date": "2023-05-30T22:36:33-04:00",
+            "created_date": "2023-05-30T21:24:40-04:00",
+            "published_date": "2023-05-30T21:24:40-04:00",
+            "material_type_facet": "",
+            "kicker": "Visual Investigations",
+            "des_facet": [
+                "Oil (Petroleum) and Gasoline",
+                "Freight (Cargo)",
+                "United States International Relations",
+                "Embargoes and Sanctions",
+                "Ships and Shipping",
+                "Russian Invasion of Ukraine (2022)"
+            ],
+            "org_facet": [],
+            "per_facet": [],
+            "geo_facet": [],
+            "multimedia": [
+                {
+                    "url": "https://static01.nyt.com/images/2023/05/31/world/asia/russia-oil-ships-sanctions-1685447068084/russia-oil-ships-sanctions-1685447068084-superJumbo.png",
+                    "format": "Super Jumbo",
+                    "height": 1080,
+                    "width": 1620,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "",
+                    "copyright": "By The New York Times | Source: Maxar, Copernicus Sentinel-2"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2023/05/31/world/asia/russia-oil-ships-sanctions-1685447068084/russia-oil-ships-sanctions-1685447068084-threeByTwoSmallAt2X.png",
+                    "format": "threeByTwoSmallAt2X",
+                    "height": 400,
+                    "width": 600,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "",
+                    "copyright": "By The New York Times | Source: Maxar, Copernicus Sentinel-2"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2023/05/31/world/asia/russia-oil-ships-sanctions-1685447068084/russia-oil-ships-sanctions-1685447068084-thumbLarge.png",
+                    "format": "Large Thumbnail",
+                    "height": 150,
+                    "width": 150,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "",
+                    "copyright": "By The New York Times | Source: Maxar, Copernicus Sentinel-2"
+                }
+            ],
+            "short_url": "https://nyti.ms/3MIBkJL"
+        },
+        {
+            "section": "dining",
+            "subsection": "",
+            "title": "James Beard Foundation, Whose Awards Honor Chefs, Is Now Investigating Them",
+            "abstract": "The group behind “the Oscars of the food world” created a new process to weed out nominees with problematic pasts. But that process has troubles of its own.",
+            "url": "https://www.nytimes.com/2023/05/31/dining/james-beard-foundation-awards-restaurants-investigation.html",
+            "uri": "nyt://article/566dd485-18ca-52d8-b4da-64bfa79d2d64",
+            "byline": "By Brett Anderson and Julia Moskin",
+            "item_type": "Article",
+            "updated_date": "2023-05-31T06:52:12-04:00",
+            "created_date": "2023-05-31T05:01:14-04:00",
+            "published_date": "2023-05-31T05:01:14-04:00",
+            "material_type_facet": "",
+            "kicker": "",
+            "des_facet": [
+                "Chefs",
+                "Ethics and Official Misconduct",
+                "Restaurants",
+                "Awards, Decorations and Honors",
+                "Detectives (Private)",
+                "Workplace Hazards and Violations"
+            ],
+            "org_facet": [
+                "Beard, James, Foundation"
+            ],
+            "per_facet": [
+                "Fore, Sam (Chef)",
+                "Hontzas, Timothy",
+                "Button, Katie",
+                "Holland, Tanya (1965- )",
+                "Reichenbach, Clare",
+                "Williams, Erick (Chef)"
+            ],
+            "geo_facet": [],
+            "multimedia": [
+                {
+                    "url": "https://static01.nyt.com/images/2023/05/31/multimedia/31beard-awards-gqtw/30beard-awards-gqtw-superJumbo.jpg",
+                    "format": "Super Jumbo",
+                    "height": 2048,
+                    "width": 1414,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "The chef Sam Fore was pleased when the James Beard Foundation named her a finalist for Best Chef: Southeast, but shocked when it had a private investigator interrogate her.",
+                    "copyright": "Jessica Ebelhar for The New York Times"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2023/05/31/multimedia/31beard-awards-gqtw/30beard-awards-gqtw-threeByTwoSmallAt2X.jpg",
+                    "format": "threeByTwoSmallAt2X",
+                    "height": 400,
+                    "width": 600,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "The chef Sam Fore was pleased when the James Beard Foundation named her a finalist for Best Chef: Southeast, but shocked when it had a private investigator interrogate her.",
+                    "copyright": "Jessica Ebelhar for The New York Times"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2023/05/31/multimedia/31beard-awards-gqtw/30beard-awards-gqtw-thumbLarge.jpg",
+                    "format": "Large Thumbnail",
+                    "height": 150,
+                    "width": 150,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "The chef Sam Fore was pleased when the James Beard Foundation named her a finalist for Best Chef: Southeast, but shocked when it had a private investigator interrogate her.",
+                    "copyright": "Jessica Ebelhar for The New York Times"
+                }
+            ],
+            "short_url": "https://nyti.ms/3IO0G86"
+        },
+        {
+            "section": "arts",
+            "subsection": "dance",
+            "title": "A Surprising Stage for Dance: The Subway Platform",
+            "abstract": "The tap dancer Ja’Bowen brings his art underground, where kids learn steps, commuters dance along and his energizing performances are bursts of joy.",
+            "url": "https://www.nytimes.com/2023/05/30/arts/dance/subway-dancing.html",
+            "uri": "nyt://article/b8496921-f7f3-5f4b-b52c-a9c5054af14f",
+            "byline": "By Gia Kourlas",
+            "item_type": "Article",
+            "updated_date": "2023-05-30T17:35:05-04:00",
+            "created_date": "2023-05-30T05:01:33-04:00",
+            "published_date": "2023-05-30T05:01:33-04:00",
+            "material_type_facet": "",
+            "kicker": "Critic’s Spotlight",
+            "des_facet": [
+                "Dancing",
+                "Street Performers"
+            ],
+            "org_facet": [],
+            "per_facet": [
+                "Ja'Bowen"
+            ],
+            "geo_facet": [],
+            "multimedia": [
+                {
+                    "url": "https://static01.nyt.com/images/2023/05/30/multimedia/30jabowen-tap-promo-qfpv/30jabowen-tap-promo-qfpv-superJumbo.jpg",
+                    "format": "Super Jumbo",
+                    "height": 1365,
+                    "width": 2048,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "",
+                    "copyright": "Angelo Silvio Vasta for The New York Times"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2023/05/30/multimedia/30jabowen-tap-promo-qfpv/30jabowen-tap-promo-qfpv-threeByTwoSmallAt2X.jpg",
+                    "format": "threeByTwoSmallAt2X",
+                    "height": 400,
+                    "width": 600,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "",
+                    "copyright": "Angelo Silvio Vasta for The New York Times"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2023/05/30/multimedia/30jabowen-tap-promo-qfpv/30jabowen-tap-promo-qfpv-thumbLarge.jpg",
+                    "format": "Large Thumbnail",
+                    "height": 150,
+                    "width": 150,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "",
+                    "copyright": "Angelo Silvio Vasta for The New York Times"
+                }
+            ],
+            "short_url": "https://nyti.ms/3MxVwhe"
+        },
+        {
+            "section": "world",
+            "subsection": "asia",
+            "title": "Sirens and Chaos Rattle Seoul After False Evacuation Alarm",
+            "abstract": "South Koreans said the alert, which was triggered by a North Korean rocket launch, showed that their country was unprepared to respond to a real emergency.",
+            "url": "https://www.nytimes.com/2023/05/31/world/asia/south-korea-alert.html",
+            "uri": "nyt://article/14b75651-55fa-5798-824b-c63af3ee4b7d",
+            "byline": "By Choe Sang-Hun, Victoria Kim and Jin Yu Young",
+            "item_type": "Article",
+            "updated_date": "2023-05-31T06:38:38-04:00",
+            "created_date": "2023-05-31T05:48:00-04:00",
+            "published_date": "2023-05-31T05:48:00-04:00",
+            "material_type_facet": "",
+            "kicker": "",
+            "des_facet": [
+                "Defense and Military Forces",
+                "Evacuations and Evacuees",
+                "Disasters and Emergencies",
+                "Satellites",
+                "Security and Warning Systems",
+                "False Alarms",
+                "Politics and Government"
+            ],
+            "org_facet": [],
+            "per_facet": [
+                "Yoon Suk-yeol"
+            ],
+            "geo_facet": [
+                "South Korea",
+                "North Korea"
+            ],
+            "multimedia": [
+                {
+                    "url": "https://static01.nyt.com/images/2023/05/31/multimedia/31skorea-evacuation-kcmv/31skorea-evacuation-kcmv-superJumbo.jpg",
+                    "format": "Super Jumbo",
+                    "height": 1348,
+                    "width": 2048,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Watching a news broadcast with file footage of North Korean leader, Kim Jong-un, at the Seoul Railway Station in Seoul on Wednesday.",
+                    "copyright": "Jung Yeon-Je/Agence France-Presse — Getty Images"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2023/05/31/multimedia/31skorea-evacuation-kcmv/31skorea-evacuation-kcmv-threeByTwoSmallAt2X.jpg",
+                    "format": "threeByTwoSmallAt2X",
+                    "height": 400,
+                    "width": 600,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Watching a news broadcast with file footage of North Korean leader, Kim Jong-un, at the Seoul Railway Station in Seoul on Wednesday.",
+                    "copyright": "Jung Yeon-Je/Agence France-Presse — Getty Images"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2023/05/31/multimedia/31skorea-evacuation-kcmv/31skorea-evacuation-kcmv-thumbLarge.jpg",
+                    "format": "Large Thumbnail",
+                    "height": 150,
+                    "width": 150,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Watching a news broadcast with file footage of North Korean leader, Kim Jong-un, at the Seoul Railway Station in Seoul on Wednesday.",
+                    "copyright": "Jung Yeon-Je/Agence France-Presse — Getty Images"
+                }
+            ],
+            "short_url": "https://nyti.ms/3ILsFoA"
+        },
+        {
+            "section": "world",
+            "subsection": "asia",
+            "title": "North Korean Rocket Triggers ‘False Alarm’ Evacuation Alert in South Korea",
+            "abstract": "The North’s rocket was said to carry a spy satellite, enabling it to watch its enemies more closely. But it said Wednesday that the launch had failed.",
+            "url": "https://www.nytimes.com/2023/05/30/world/asia/north-korea-satellite.html",
+            "uri": "nyt://article/44fb2ad8-527f-5942-aff4-bc6358a0a630",
+            "byline": "By Choe Sang-Hun and Motoko Rich",
+            "item_type": "Article",
+            "updated_date": "2023-05-30T23:28:54-04:00",
+            "created_date": "2023-05-30T18:36:44-04:00",
+            "published_date": "2023-05-30T18:36:44-04:00",
+            "material_type_facet": "",
+            "kicker": "",
+            "des_facet": [
+                "Nuclear Weapons",
+                "Satellites",
+                "Defense and Military Forces",
+                "Nuclear Tests"
+            ],
+            "org_facet": [],
+            "per_facet": [
+                "Kim Jong-un"
+            ],
+            "geo_facet": [
+                "North Korea"
+            ],
+            "multimedia": [
+                {
+                    "url": "https://static01.nyt.com/images/2023/05/30/multimedia/00nkorea-launch-HFO-mpjf/00nkorea-launch-HFO-mpjf-superJumbo.jpg",
+                    "format": "Super Jumbo",
+                    "height": 1367,
+                    "width": 2048,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Residents in Seoul watched as news of North Korea’s plan to launch a spy satellite was shown on television.",
+                    "copyright": "Jeon Heon-Kyun/EPA, via Shutterstock"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2023/05/30/multimedia/00nkorea-launch-HFO-mpjf/00nkorea-launch-HFO-mpjf-threeByTwoSmallAt2X.jpg",
+                    "format": "threeByTwoSmallAt2X",
+                    "height": 401,
+                    "width": 600,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Residents in Seoul watched as news of North Korea’s plan to launch a spy satellite was shown on television.",
+                    "copyright": "Jeon Heon-Kyun/EPA, via Shutterstock"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2023/05/30/multimedia/00nkorea-launch-HFO-mpjf/00nkorea-launch-HFO-mpjf-thumbLarge.jpg",
+                    "format": "Large Thumbnail",
+                    "height": 150,
+                    "width": 150,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Residents in Seoul watched as news of North Korea’s plan to launch a spy satellite was shown on television.",
+                    "copyright": "Jeon Heon-Kyun/EPA, via Shutterstock"
+                }
+            ],
+            "short_url": "https://nyti.ms/3WIfRFf"
+        },
+        {
+            "section": "climate",
+            "subsection": "",
+            "title": "Climate Shocks Are Making Parts of America Uninsurable. It Just Got Worse.",
+            "abstract": "The largest insurer in California said it would stop offering new coverage. It’s part of a broader trend of companies pulling back from dangerous areas.",
+            "url": "https://www.nytimes.com/2023/05/31/climate/climate-change-insurance-wildfires-california.html",
+            "uri": "nyt://article/603cc926-f48c-541c-83ca-adbdd93ca3ec",
+            "byline": "By Christopher Flavelle, Jill Cowan and Ivan Penn",
+            "item_type": "Article",
+            "updated_date": "2023-05-31T06:44:35-04:00",
+            "created_date": "2023-05-31T05:01:12-04:00",
+            "published_date": "2023-05-31T05:01:12-04:00",
+            "material_type_facet": "",
+            "kicker": "",
+            "des_facet": [
+                "Insurance",
+                "Floods",
+                "Wildfires",
+                "Disasters and Emergencies",
+                "Global Warming",
+                "Greenhouse Gas Emissions"
+            ],
+            "org_facet": [
+                "Federal Emergency Management Agency",
+                "State Farm Insurance"
+            ],
+            "per_facet": [],
+            "geo_facet": [
+                "California",
+                "Florida",
+                "Louisiana"
+            ],
+            "multimedia": [
+                {
+                    "url": "https://static01.nyt.com/images/2023/05/31/multimedia/31cli-INSURANCECOLLAPSE-pbwg/31cli-INSURANCECOLLAPSE-pbwg-superJumbo.jpg",
+                    "format": "Super Jumbo",
+                    "height": 1366,
+                    "width": 2048,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "A firefighter tried to save a home in Meyers, Calif., in 2021. ",
+                    "copyright": "Max Whittaker for The New York Times"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2023/05/31/multimedia/31cli-INSURANCECOLLAPSE-pbwg/31cli-INSURANCECOLLAPSE-pbwg-threeByTwoSmallAt2X.jpg",
+                    "format": "threeByTwoSmallAt2X",
+                    "height": 400,
+                    "width": 600,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "A firefighter tried to save a home in Meyers, Calif., in 2021. ",
+                    "copyright": "Max Whittaker for The New York Times"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2023/05/31/multimedia/31cli-INSURANCECOLLAPSE-pbwg/31cli-INSURANCECOLLAPSE-pbwg-thumbLarge.jpg",
+                    "format": "Large Thumbnail",
+                    "height": 150,
+                    "width": 150,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "A firefighter tried to save a home in Meyers, Calif., in 2021. ",
+                    "copyright": "Max Whittaker for The New York Times"
+                }
+            ],
+            "short_url": "https://nyti.ms/3MFAGg1"
+        },
+        {
+            "section": "world",
+            "subsection": "middleeast",
+            "title": "Israel Called Them ‘Precision’ Strikes. But Civilian Homes Were Hit, Too.",
+            "abstract": "Palestinians in Gaza say that Israel’s strikes against Islamic Jihad amount to a collective punishment aimed at making them fearful about who their neighbors might be.",
+            "url": "https://www.nytimes.com/2023/05/31/world/middleeast/israel-gaza-precision-strikes-civilians.html",
+            "uri": "nyt://article/b9f4e3cf-3e46-5167-84b2-760a57551d1c",
+            "byline": "By Raja Abdulrahim and Samar Abu Elouf",
+            "item_type": "Article",
+            "updated_date": "2023-05-31T06:01:11-04:00",
+            "created_date": "2023-05-31T06:01:11-04:00",
+            "published_date": "2023-05-31T06:01:11-04:00",
+            "material_type_facet": "",
+            "kicker": "",
+            "des_facet": [
+                "Civilian Casualties",
+                "Defense and Military Forces",
+                "War and Armed Conflicts",
+                "Palestinians"
+            ],
+            "org_facet": [
+                "Palestinian Islamic Jihad"
+            ],
+            "per_facet": [],
+            "geo_facet": [
+                "Gaza Strip",
+                "Israel"
+            ],
+            "multimedia": [
+                {
+                    "url": "https://static01.nyt.com/images/2023/05/21/multimedia/21gaza-dentist-01-mgcq/21gaza-dentist-01-mgcq-superJumbo.jpg",
+                    "format": "Super Jumbo",
+                    "height": 1365,
+                    "width": 2048,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "A hole left by a bomb that entered the home of the Khoswan family, in a strike on an Islamic Jihad member who lived below, in Gaza City.",
+                    "copyright": ""
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2023/05/21/multimedia/21gaza-dentist-01-mgcq/21gaza-dentist-01-mgcq-threeByTwoSmallAt2X.jpg",
+                    "format": "threeByTwoSmallAt2X",
+                    "height": 400,
+                    "width": 600,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "A hole left by a bomb that entered the home of the Khoswan family, in a strike on an Islamic Jihad member who lived below, in Gaza City.",
+                    "copyright": ""
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2023/05/21/multimedia/21gaza-dentist-01-mgcq/21gaza-dentist-01-mgcq-thumbLarge.jpg",
+                    "format": "Large Thumbnail",
+                    "height": 150,
+                    "width": 150,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "A hole left by a bomb that entered the home of the Khoswan family, in a strike on an Islamic Jihad member who lived below, in Gaza City.",
+                    "copyright": ""
+                }
+            ],
+            "short_url": "https://nyti.ms/3owE6db"
+        },
+        {
+            "section": "nyregion",
+            "subsection": "",
+            "title": "Wine at Wegmans? Not in New York, if Liquor Stores Can Help It.",
+            "abstract": "Despite a state commission’s recommendations, New York lawmakers seem unlikely to make substantive changes to a 1934 law that traces to Prohibition.",
+            "url": "https://www.nytimes.com/2023/05/31/nyregion/liquor-law-wine-supermarkets.html",
+            "uri": "nyt://article/d1f5357a-b1bb-5aa6-befd-b4022267de2b",
+            "byline": "By Luis Ferré-Sadurní",
+            "item_type": "Article",
+            "updated_date": "2023-05-31T03:00:19-04:00",
+            "created_date": "2023-05-31T03:00:19-04:00",
+            "published_date": "2023-05-31T03:00:19-04:00",
+            "material_type_facet": "",
+            "kicker": "",
+            "des_facet": [
+                "Alcoholic Beverages",
+                "Law and Legislation",
+                "Liquor",
+                "Politics and Government",
+                "State Legislatures",
+                "Supermarkets and Grocery Stores",
+                "Wines"
+            ],
+            "org_facet": [],
+            "per_facet": [],
+            "geo_facet": [
+                "New York State"
+            ],
+            "multimedia": [
+                {
+                    "url": "https://static01.nyt.com/images/2023/05/25/multimedia/00ny-liquor1-blfk/00ny-liquor1-blfk-superJumbo.jpg",
+                    "format": "Super Jumbo",
+                    "height": 1365,
+                    "width": 2048,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Wegmans, a supermarket chain based in Rochester, spent over $30,000 in May lobbying state lawmakers to allow grocery stores to sell wine.",
+                    "copyright": "Casey Steffens for The New York Times"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2023/05/25/multimedia/00ny-liquor1-blfk/00ny-liquor1-blfk-threeByTwoSmallAt2X.jpg",
+                    "format": "threeByTwoSmallAt2X",
+                    "height": 400,
+                    "width": 600,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Wegmans, a supermarket chain based in Rochester, spent over $30,000 in May lobbying state lawmakers to allow grocery stores to sell wine.",
+                    "copyright": "Casey Steffens for The New York Times"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2023/05/25/multimedia/00ny-liquor1-blfk/00ny-liquor1-blfk-thumbLarge.jpg",
+                    "format": "Large Thumbnail",
+                    "height": 150,
+                    "width": 150,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Wegmans, a supermarket chain based in Rochester, spent over $30,000 in May lobbying state lawmakers to allow grocery stores to sell wine.",
+                    "copyright": "Casey Steffens for The New York Times"
+                }
+            ],
+            "short_url": "https://nyti.ms/3C1xmXV"
+        },
+        {
+            "section": "business",
+            "subsection": "",
+            "title": "How Remote Work Connected Employees Making $19 an Hour and $80,000 a Year",
+            "abstract": "At Amazon, warehouse workers have shown support for corporate colleagues, noting they have nothing to gain if office workers lose flexibility that the pandemic proved possible.",
+            "url": "https://www.nytimes.com/2023/05/31/business/work-home-return-office-amazon.html",
+            "uri": "nyt://article/db3774a9-785e-54b2-ad29-ace8f95cdf0e",
+            "byline": "By Emma Goldberg",
+            "item_type": "Article",
+            "updated_date": "2023-05-31T05:00:30-04:00",
+            "created_date": "2023-05-31T05:00:30-04:00",
+            "published_date": "2023-05-31T05:00:30-04:00",
+            "material_type_facet": "",
+            "kicker": "",
+            "des_facet": [
+                "Labor and Jobs",
+                "Coronavirus Return to Office",
+                "Telecommuting",
+                "Workplace Environment",
+                "Organized Labor"
+            ],
+            "org_facet": [
+                "Amazon.com Inc",
+                "Starbucks Corporation"
+            ],
+            "per_facet": [],
+            "geo_facet": [],
+            "multimedia": [
+                {
+                    "url": "https://static01.nyt.com/images/2023/05/31/multimedia/31RTO-PROTESTS-amazon-sub-vhtj/31RTO-PROTESTS-amazon-sub-vhtj-superJumbo.jpg",
+                    "format": "Super Jumbo",
+                    "height": 2048,
+                    "width": 1536,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Amazon headquarters in Seattle. Corporate employees at Amazon plan a one-day walkout on Wednesday to protest the company’s back-to-office rule.",
+                    "copyright": "Grant Hindsley for The New York Times"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2023/05/31/multimedia/31RTO-PROTESTS-amazon-sub-vhtj/31RTO-PROTESTS-amazon-sub-vhtj-threeByTwoSmallAt2X-v2.jpg",
+                    "format": "threeByTwoSmallAt2X",
+                    "height": 400,
+                    "width": 600,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Amazon headquarters in Seattle. Corporate employees at Amazon plan a one-day walkout on Wednesday to protest the company’s back-to-office rule.",
+                    "copyright": "Grant Hindsley for The New York Times"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2023/05/31/multimedia/31RTO-PROTESTS-amazon-sub-vhtj/31RTO-PROTESTS-amazon-sub-vhtj-thumbLarge-v2.jpg",
+                    "format": "Large Thumbnail",
+                    "height": 150,
+                    "width": 150,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Amazon headquarters in Seattle. Corporate employees at Amazon plan a one-day walkout on Wednesday to protest the company’s back-to-office rule.",
+                    "copyright": "Grant Hindsley for The New York Times"
+                }
+            ],
+            "short_url": "https://nyti.ms/3N4e3TS"
+        },
+        {
+            "section": "well",
+            "subsection": "mind",
+            "title": "The Most Common Eating Disorder in the U.S. Is Also the Least Understood",
+            "abstract": "Binge eating disorder entered the diagnostic manual on mental health conditions 10 years ago. It’s still getting overlooked.",
+            "url": "https://www.nytimes.com/2023/05/31/well/mind/binge-eating-disorder-symptoms-treatment.html",
+            "uri": "nyt://article/d13c625d-4d73-5e42-a5cf-fe446e703720",
+            "byline": "By Dani Blum",
+            "item_type": "Article",
+            "updated_date": "2023-05-31T05:00:25-04:00",
+            "created_date": "2023-05-31T05:00:25-04:00",
+            "published_date": "2023-05-31T05:00:25-04:00",
+            "material_type_facet": "",
+            "kicker": "",
+            "des_facet": [
+                "Mental Health and Disorders",
+                "Diet and Nutrition",
+                "Eating Disorders",
+                "Food"
+            ],
+            "org_facet": [],
+            "per_facet": [],
+            "geo_facet": [],
+            "multimedia": [
+                {
+                    "url": "https://static01.nyt.com/images/2023/05/30/multimedia/30Well-Binge-Eating/30Well-Binge-Eating-superJumbo.jpg",
+                    "format": "Super Jumbo",
+                    "height": 2048,
+                    "width": 1639,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "",
+                    "copyright": "Laura Edelbacher"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2023/05/30/multimedia/30Well-Binge-Eating/30Well-Binge-Eating-threeByTwoSmallAt2X.jpg",
+                    "format": "threeByTwoSmallAt2X",
+                    "height": 400,
+                    "width": 600,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "",
+                    "copyright": "Laura Edelbacher"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2023/05/30/multimedia/30Well-Binge-Eating/30Well-Binge-Eating-thumbLarge.jpg",
+                    "format": "Large Thumbnail",
+                    "height": 150,
+                    "width": 150,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "",
+                    "copyright": "Laura Edelbacher"
+                }
+            ],
+            "short_url": "https://nyti.ms/43ASpwe"
+        },
+        {
+            "section": "style",
+            "subsection": "",
+            "title": "How to Get Absolutely No Sun This Summer",
+            "abstract": "None! Don’t even think about it!",
+            "url": "https://www.nytimes.com/2023/05/29/style/avoiding-sun-sunscreen-skincare.html",
+            "uri": "nyt://article/87eaf95e-89e8-5157-925a-ae18b164a38c",
+            "byline": "By Madeleine Aggeler",
+            "item_type": "Article",
+            "updated_date": "2023-05-30T12:58:03-04:00",
+            "created_date": "2023-05-29T14:45:26-04:00",
+            "published_date": "2023-05-29T14:45:26-04:00",
+            "material_type_facet": "",
+            "kicker": "",
+            "des_facet": [
+                "Sunscreen",
+                "Skin",
+                "Content Type: Service",
+                "Skin Cancer",
+                "Sun"
+            ],
+            "org_facet": [
+                "American Cancer Society"
+            ],
+            "per_facet": [],
+            "geo_facet": [],
+            "multimedia": [
+                {
+                    "url": "https://static01.nyt.com/images/2023/05/28/multimedia/25NO-SUN-SUMMER-03-fkhp/25NO-SUN-SUMMER-03-fkhp-superJumbo.jpg",
+                    "format": "Super Jumbo",
+                    "height": 2048,
+                    "width": 1438,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Cover up! Every inch!",
+                    "copyright": "Jamie Lee Taete for The New York Times"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2023/05/28/multimedia/25NO-SUN-SUMMER-03-fkhp/25NO-SUN-SUMMER-03-fkhp-threeByTwoSmallAt2X.jpg",
+                    "format": "threeByTwoSmallAt2X",
+                    "height": 400,
+                    "width": 600,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Cover up! Every inch!",
+                    "copyright": "Jamie Lee Taete for The New York Times"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2023/05/28/multimedia/25NO-SUN-SUMMER-03-fkhp/25NO-SUN-SUMMER-03-fkhp-thumbLarge.jpg",
+                    "format": "Large Thumbnail",
+                    "height": 150,
+                    "width": 150,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Cover up! Every inch!",
+                    "copyright": "Jamie Lee Taete for The New York Times"
+                }
+            ],
+            "short_url": "https://nyti.ms/45F56Yr"
+        },
+        {
+            "section": "opinion",
+            "subsection": "",
+            "title": "Four Questions About the Biden-McCarthy Deal",
+            "abstract": "There is no obvious question about the country’s fiscal future that the Republican Party’s current policies propose an answer to.",
+            "url": "https://www.nytimes.com/2023/05/31/opinion/biden-mccarthy-debt-ceiling-deal.html",
+            "uri": "nyt://article/a1145288-cdb3-515b-ae44-5fb10e77893a",
+            "byline": "By Ezra Klein",
+            "item_type": "Article",
+            "updated_date": "2023-05-31T05:00:27-04:00",
+            "created_date": "2023-05-31T05:00:27-04:00",
+            "published_date": "2023-05-31T05:00:27-04:00",
+            "material_type_facet": "",
+            "kicker": "Ezra Klein",
+            "des_facet": [
+                "Federal Budget (US)",
+                "United States Politics and Government",
+                "United States Economy",
+                "Budget Control Act (2011)"
+            ],
+            "org_facet": [],
+            "per_facet": [
+                "Biden, Joseph R Jr",
+                "McCarthy, Kevin (1965- )",
+                "Trump, Donald J"
+            ],
+            "geo_facet": [],
+            "multimedia": [
+                {
+                    "url": "https://static01.nyt.com/images/2023/05/31/multimedia/31klein-lead-mkhv/31klein-lead-mkhv-superJumbo.jpg",
+                    "format": "Super Jumbo",
+                    "height": 1366,
+                    "width": 2048,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "President Biden discussing the debt ceiling deal with journalists.",
+                    "copyright": "Jim Lo Scalzo/EPA, via Shutterstock"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2023/05/31/multimedia/31klein-lead-mkhv/31klein-lead-mkhv-threeByTwoSmallAt2X.jpg",
+                    "format": "threeByTwoSmallAt2X",
+                    "height": 400,
+                    "width": 600,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "President Biden discussing the debt ceiling deal with journalists.",
+                    "copyright": "Jim Lo Scalzo/EPA, via Shutterstock"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2023/05/31/multimedia/31klein-lead-mkhv/31klein-lead-mkhv-thumbLarge-v2.jpg",
+                    "format": "Large Thumbnail",
+                    "height": 150,
+                    "width": 150,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "President Biden discussing the debt ceiling deal with journalists.",
+                    "copyright": "Jim Lo Scalzo/EPA, via Shutterstock"
+                }
+            ],
+            "short_url": "https://nyti.ms/3N4akFW"
+        },
+        {
+            "section": "opinion",
+            "subsection": "",
+            "title": "A Rapper’s Detention Shows Iran’s Crackdown Is Failing",
+            "abstract": "The imprisoned rapper Toomaj Salehi’s life is in danger as Iran ramps up executions. But the message of his music hasn’t gone away.",
+            "url": "https://www.nytimes.com/2023/05/31/opinion/toomaj-salehi-iran.html",
+            "uri": "nyt://article/956e9d72-f908-5f30-9fd2-98d405a0a20a",
+            "byline": "By Holly Dagres",
+            "item_type": "Article",
+            "updated_date": "2023-05-31T06:17:28-04:00",
+            "created_date": "2023-05-31T05:00:19-04:00",
+            "published_date": "2023-05-31T05:00:19-04:00",
+            "material_type_facet": "",
+            "kicker": "Guest Essay",
+            "des_facet": [
+                "Demonstrations, Protests and Riots",
+                "Rap and Hip-Hop"
+            ],
+            "org_facet": [],
+            "per_facet": [
+                "Amini, Mahsa (2000-22)"
+            ],
+            "geo_facet": [
+                "Iran"
+            ],
+            "multimedia": [
+                {
+                    "url": "https://static01.nyt.com/images/2023/05/24/opinion/00dagres/00dagres-superJumbo.jpg",
+                    "format": "Super Jumbo",
+                    "height": 1365,
+                    "width": 2048,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Iranian protesters in France demanding the release of the rapper Toomaj Salehi.",
+                    "copyright": "Patrick Batard/Hans Lucas, via Getty Images"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2023/05/24/opinion/00dagres/00dagres-threeByTwoSmallAt2X.jpg",
+                    "format": "threeByTwoSmallAt2X",
+                    "height": 400,
+                    "width": 600,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Iranian protesters in France demanding the release of the rapper Toomaj Salehi.",
+                    "copyright": "Patrick Batard/Hans Lucas, via Getty Images"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2023/05/24/opinion/00dagres/00dagres-thumbLarge.jpg",
+                    "format": "Large Thumbnail",
+                    "height": 150,
+                    "width": 150,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Iranian protesters in France demanding the release of the rapper Toomaj Salehi.",
+                    "copyright": "Patrick Batard/Hans Lucas, via Getty Images"
+                }
+            ],
+            "short_url": "https://nyti.ms/3N4e2zi"
+        },
+        {
+            "section": "opinion",
+            "subsection": "",
+            "title": "Turkey’s Election Is a Warning About Trump",
+            "abstract": "Erdogan’s manifest failures as a leader didn’t stop his re-election.",
+            "url": "https://www.nytimes.com/2023/05/30/opinion/turkey-election-erdogan-trump.html",
+            "uri": "nyt://article/9ecbcd79-0d16-5d64-85f8-2871220f990d",
+            "byline": "By Bret Stephens",
+            "item_type": "Article",
+            "updated_date": "2023-05-30T23:28:18-04:00",
+            "created_date": "2023-05-30T19:00:10-04:00",
+            "published_date": "2023-05-30T19:00:10-04:00",
+            "material_type_facet": "",
+            "kicker": "Bret Stephens",
+            "des_facet": [
+                "Elections",
+                "Politics and Government",
+                "International Relations",
+                "Religion-State Relations"
+            ],
+            "org_facet": [],
+            "per_facet": [
+                "Erdogan, Recep Tayyip",
+                "Trump, Donald J"
+            ],
+            "geo_facet": [
+                "Turkey"
+            ],
+            "multimedia": [
+                {
+                    "url": "https://static01.nyt.com/images/2023/05/31/multimedia/30stephens1-fjhz/30stephens1-fjhz-superJumbo.jpg",
+                    "format": "Super Jumbo",
+                    "height": 1443,
+                    "width": 2048,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "",
+                    "copyright": "Hannah McKay/Reuters"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2023/05/31/multimedia/30stephens1-fjhz/30stephens1-fjhz-threeByTwoSmallAt2X.jpg",
+                    "format": "threeByTwoSmallAt2X",
+                    "height": 400,
+                    "width": 600,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "",
+                    "copyright": "Hannah McKay/Reuters"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2023/05/31/multimedia/30stephens1-fjhz/30stephens1-fjhz-thumbLarge.jpg",
+                    "format": "Large Thumbnail",
+                    "height": 150,
+                    "width": 150,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "",
+                    "copyright": "Hannah McKay/Reuters"
+                }
+            ],
+            "short_url": "https://nyti.ms/3OPzKZc"
+        },
+        {
+            "section": "opinion",
+            "subsection": "",
+            "title": "Don’t Kid Yourself, China Is Still a Formidable Foe",
+            "abstract": "The country’s economic prospects are being underestimated.",
+            "url": "https://www.nytimes.com/2023/05/31/opinion/china-economy-growth-covid.html",
+            "uri": "nyt://article/bdff6386-045a-52ae-add2-57cb2bce1c00",
+            "byline": "By Steven Rattner",
+            "item_type": "Article",
+            "updated_date": "2023-05-31T05:00:19-04:00",
+            "created_date": "2023-05-31T05:00:19-04:00",
+            "published_date": "2023-05-31T05:00:19-04:00",
+            "material_type_facet": "",
+            "kicker": "Guest Essay",
+            "des_facet": [
+                "International Relations",
+                "Foreign Investments",
+                "United States Economy",
+                "Economic Conditions and Trends",
+                "International Trade and World Market",
+                "United States International Relations"
+            ],
+            "org_facet": [],
+            "per_facet": [
+                "Xi Jinping"
+            ],
+            "geo_facet": [
+                "China"
+            ],
+            "multimedia": [
+                {
+                    "url": "https://static01.nyt.com/images/2023/05/29/opinion/29rattner/29rattner-superJumbo.jpg",
+                    "format": "Super Jumbo",
+                    "height": 1800,
+                    "width": 1800,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "",
+                    "copyright": "Gabriel Alcala"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2023/05/29/opinion/29rattner/29rattner-threeByTwoSmallAt2X.jpg",
+                    "format": "threeByTwoSmallAt2X",
+                    "height": 400,
+                    "width": 600,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "",
+                    "copyright": "Gabriel Alcala"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2023/05/29/opinion/29rattner/29rattner-thumbLarge.jpg",
+                    "format": "Large Thumbnail",
+                    "height": 150,
+                    "width": 150,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "",
+                    "copyright": "Gabriel Alcala"
+                }
+            ],
+            "short_url": "https://nyti.ms/3INDg2v"
+        },
+        {
+            "section": "briefing",
+            "subsection": "",
+            "title": "A Big Day for the Debt Ceiling",
+            "abstract": "The bipartisan debt limit deal still isn’t assured of passing.",
+            "url": "https://www.nytimes.com/2023/05/31/briefing/debt-limit.html",
+            "uri": "nyt://article/99fa5ea3-d8be-58a8-b416-194b2e5accda",
+            "byline": "By David Leonhardt",
+            "item_type": "Article",
+            "updated_date": "2023-05-31T06:42:13-04:00",
+            "created_date": "2023-05-31T06:42:13-04:00",
+            "published_date": "2023-05-31T06:42:13-04:00",
+            "material_type_facet": "",
+            "kicker": "",
+            "des_facet": [
+                "internal-storyline-no",
+                "National Debt (US)"
+            ],
+            "org_facet": [],
+            "per_facet": [
+                "McCarthy, Kevin (1965- )"
+            ],
+            "geo_facet": [],
+            "multimedia": [
+                {
+                    "url": "https://static01.nyt.com/images/2023/05/31/multimedia/31-THE-MORNING-NL-0531-promo/31-THE-MORNING-NL-McCarthy-glbm-superJumbo.jpg",
+                    "format": "Super Jumbo",
+                    "height": 2048,
+                    "width": 2047,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Speaker of the House Kevin McCarthy, R-Calif. Speaks following his meeting with President Joe Biden in the Oval Office early last week.",
+                    "copyright": "Doug Mills/The New York Times"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2023/05/31/multimedia/31-THE-MORNING-NL-0531-promo/31-THE-MORNING-NL-McCarthy-glbm-threeByTwoSmallAt2X.jpg",
+                    "format": "threeByTwoSmallAt2X",
+                    "height": 400,
+                    "width": 600,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Speaker of the House Kevin McCarthy, R-Calif. Speaks following his meeting with President Joe Biden in the Oval Office early last week.",
+                    "copyright": "Doug Mills/The New York Times"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2023/05/31/multimedia/31-THE-MORNING-NL-0531-promo/31-THE-MORNING-NL-McCarthy-glbm-thumbLarge.jpg",
+                    "format": "Large Thumbnail",
+                    "height": 150,
+                    "width": 150,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Speaker of the House Kevin McCarthy, R-Calif. Speaks following his meeting with President Joe Biden in the Oval Office early last week.",
+                    "copyright": "Doug Mills/The New York Times"
+                }
+            ],
+            "short_url": "https://nyti.ms/45CHGTw"
+        },
+        {
+            "section": "podcasts",
+            "subsection": "the-daily",
+            "title": "Republicans Impeach One of Their Own",
+            "abstract": "In Texas, the impeachment of the state attorney general, Ken Paxton, highlights tension over the future of the Republican Party.",
+            "url": "https://www.nytimes.com/2023/05/31/podcasts/the-daily/republican-impeachment-paxton.html",
+            "uri": "nyt://article/0aece89f-f8b5-53c5-b91d-96f359964c66",
+            "byline": "By Michael Barbaro, Carlos Prieto, Stella Tan, Asthaa Chaturvedi, Rikki Novetsky, Rachel Quester, Dan Powell, Marion Lozano, Elisheba Ittoop, Rowan Niemisto and Chris Wood",
+            "item_type": "Article",
+            "updated_date": "2023-05-31T06:00:14-04:00",
+            "created_date": "2023-05-31T06:00:14-04:00",
+            "published_date": "2023-05-31T06:00:14-04:00",
+            "material_type_facet": "",
+            "kicker": "",
+            "des_facet": [
+                "audio-neutral-informative",
+                "United States Politics and Government",
+                "Impeachment",
+                "New York State Criminal Case Against Trump (71543-23)",
+                "Politics and Government",
+                "State Legislatures",
+                "Law and Legislation"
+            ],
+            "org_facet": [
+                "Republican Party"
+            ],
+            "per_facet": [
+                "Paxton, Ken",
+                "Trump, Donald J"
+            ],
+            "geo_facet": [
+                "Houston (Tex)"
+            ],
+            "multimedia": [
+                {
+                    "url": "https://static01.nyt.com/images/2023/05/31/multimedia/31daily-texas-impeachment-image/31DAILY-PAXTON-gzqt-superJumbo.jpg",
+                    "format": "Super Jumbo",
+                    "height": 1266,
+                    "width": 2048,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Ken Paxton, the Texas attorney general, faces 20 articles of impeachment from state lawmakers.",
+                    "copyright": "Eric Gay/Associated Press"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2023/05/31/multimedia/31daily-texas-impeachment-image/31DAILY-PAXTON-gzqt-threeByTwoSmallAt2X.jpg",
+                    "format": "threeByTwoSmallAt2X",
+                    "height": 400,
+                    "width": 600,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Ken Paxton, the Texas attorney general, faces 20 articles of impeachment from state lawmakers.",
+                    "copyright": "Eric Gay/Associated Press"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2023/05/31/multimedia/31daily-texas-impeachment-image/31DAILY-PAXTON-gzqt-thumbLarge.jpg",
+                    "format": "Large Thumbnail",
+                    "height": 150,
+                    "width": 150,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Ken Paxton, the Texas attorney general, faces 20 articles of impeachment from state lawmakers.",
+                    "copyright": "Eric Gay/Associated Press"
+                }
+            ],
+            "short_url": "https://nyti.ms/3qe5b5f"
+        },
+        {
+            "section": "us",
+            "subsection": "politics",
+            "title": "Trump White House Aides Subpoenaed in Firing of Election Security Expert",
+            "abstract": "The special counsel is scrutinizing the dismissal of Christopher Krebs, who contradicted baseless claims by the former president that the 2020 election was marred by fraud.",
+            "url": "https://www.nytimes.com/2023/05/31/us/politics/trump-aides-subpoenaed-special-counsel.html",
+            "uri": "nyt://article/292fa2b6-f5de-5649-ab13-9c1603e31dbe",
+            "byline": "By Maggie Haberman and Jonathan Swan",
+            "item_type": "Article",
+            "updated_date": "2023-05-31T05:00:25-04:00",
+            "created_date": "2023-05-31T05:00:25-04:00",
+            "published_date": "2023-05-31T05:00:25-04:00",
+            "material_type_facet": "",
+            "kicker": "",
+            "des_facet": [
+                "Presidential Election of 2020",
+                "United States Politics and Government",
+                "Special Prosecutors (Independent Counsel)"
+            ],
+            "org_facet": [
+                "Justice Department"
+            ],
+            "per_facet": [
+                "Krebs, Christopher C",
+                "McEntee, John",
+                "Trump, Donald J",
+                "Smith, Jack (Attorney)"
+            ],
+            "geo_facet": [],
+            "multimedia": [
+                {
+                    "url": "https://static01.nyt.com/images/2023/05/31/multimedia/31dc-subpoena-Krebs-tlmc/31dc-subpoena-Krebs-tlmc-superJumbo.jpg",
+                    "format": "Super Jumbo",
+                    "height": 1365,
+                    "width": 2048,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Staff members within the Trump administration’s Personnel Personnel Office had drafted a document about Christopher Krebs that outlined reasons to distrust him.",
+                    "copyright": "Carolyn Kaster/Associated Press"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2023/05/31/multimedia/31dc-subpoena-Krebs-tlmc/31dc-subpoena-Krebs-tlmc-threeByTwoSmallAt2X.jpg",
+                    "format": "threeByTwoSmallAt2X",
+                    "height": 400,
+                    "width": 600,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Staff members within the Trump administration’s Personnel Personnel Office had drafted a document about Christopher Krebs that outlined reasons to distrust him.",
+                    "copyright": "Carolyn Kaster/Associated Press"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2023/05/31/multimedia/31dc-subpoena-Krebs-tlmc/31dc-subpoena-Krebs-tlmc-thumbLarge.jpg",
+                    "format": "Large Thumbnail",
+                    "height": 150,
+                    "width": 150,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Staff members within the Trump administration’s Personnel Personnel Office had drafted a document about Christopher Krebs that outlined reasons to distrust him.",
+                    "copyright": "Carolyn Kaster/Associated Press"
+                }
+            ],
+            "short_url": "https://nyti.ms/43yIM0N"
+        },
+        {
+            "section": "world",
+            "subsection": "asia",
+            "title": "Pakistan’s Powerful Military Faces New Resistance From Courts",
+            "abstract": "Long seen as kowtowing to the military, the judiciary has defied it in recent rulings, signaling an important shift in Pakistan’s political landscape.",
+            "url": "https://www.nytimes.com/2023/05/31/world/asia/pakistan-courts-challenge-military.html",
+            "uri": "nyt://article/687873a1-4d29-5f9f-94aa-849a402b619a",
+            "byline": "By Christina Goldbaum and Salman Masood",
+            "item_type": "Article",
+            "updated_date": "2023-05-31T05:00:29-04:00",
+            "created_date": "2023-05-31T05:00:29-04:00",
+            "published_date": "2023-05-31T05:00:29-04:00",
+            "material_type_facet": "",
+            "kicker": "",
+            "des_facet": [
+                "Courts and the Judiciary",
+                "Defense and Military Forces",
+                "Politics and Government",
+                "Legislatures and Parliaments"
+            ],
+            "org_facet": [
+                "Supreme Court of Pakistan",
+                "Pakistan Tehreek-e-Insaf"
+            ],
+            "per_facet": [
+                "Khan, Imran",
+                "Musharraf, Pervez",
+                "Bhutto, Benazir"
+            ],
+            "geo_facet": [
+                "Pakistan"
+            ],
+            "multimedia": [
+                {
+                    "url": "https://static01.nyt.com/images/2023/05/25/multimedia/00pakistan-courts1-zbwh/00pakistan-courts1-zbwh-superJumbo.jpg",
+                    "format": "Super Jumbo",
+                    "height": 1365,
+                    "width": 2048,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Paramilitary soldiers in front of the Supreme Court during a ruling on former Prime Minister Imran Khan, in Islamabad, Pakistan, earlier this month.",
+                    "copyright": "Aamir Qureshi/Agence France-Presse — Getty Images"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2023/05/25/multimedia/00pakistan-courts1-zbwh/00pakistan-courts1-zbwh-threeByTwoSmallAt2X.jpg",
+                    "format": "threeByTwoSmallAt2X",
+                    "height": 400,
+                    "width": 600,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Paramilitary soldiers in front of the Supreme Court during a ruling on former Prime Minister Imran Khan, in Islamabad, Pakistan, earlier this month.",
+                    "copyright": "Aamir Qureshi/Agence France-Presse — Getty Images"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2023/05/25/multimedia/00pakistan-courts1-zbwh/00pakistan-courts1-zbwh-thumbLarge.jpg",
+                    "format": "Large Thumbnail",
+                    "height": 150,
+                    "width": 150,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Paramilitary soldiers in front of the Supreme Court during a ruling on former Prime Minister Imran Khan, in Islamabad, Pakistan, earlier this month.",
+                    "copyright": "Aamir Qureshi/Agence France-Presse — Getty Images"
+                }
+            ],
+            "short_url": "https://nyti.ms/3oHO4bB"
+        },
+        {
+            "section": "nyregion",
+            "subsection": "",
+            "title": "The District Gained Republicans. Could a Liberal Democrat Take It Back?",
+            "abstract": "Sue Altman, the leader of a progressive organization in New Jersey, is expected to announce a run for Congress against Rep. Tom Kean Jr.",
+            "url": "https://www.nytimes.com/2023/05/31/nyregion/sue-altman-tom-kean-new-jersey.html",
+            "uri": "nyt://article/5fb8402f-7a88-5a9a-a29b-e637a2c69237",
+            "byline": "By Tracey Tully",
+            "item_type": "Article",
+            "updated_date": "2023-05-31T05:00:28-04:00",
+            "created_date": "2023-05-31T05:00:28-04:00",
+            "published_date": "2023-05-31T05:00:28-04:00",
+            "material_type_facet": "",
+            "kicker": "",
+            "des_facet": [
+                "Elections, House of Representatives"
+            ],
+            "org_facet": [],
+            "per_facet": [
+                "Altman, Sue (1982- )",
+                "Tom Kean"
+            ],
+            "geo_facet": [
+                "New Jersey"
+            ],
+            "multimedia": [
+                {
+                    "url": "https://static01.nyt.com/images/2023/05/31/multimedia/31nj-congress-ckmq/31nj-congress-ckmq-superJumbo.jpg",
+                    "format": "Super Jumbo",
+                    "height": 1364,
+                    "width": 2048,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Sue Altman, head of New Jersey’s liberal-leaning Working Families Alliance, is expected to announce a run for Congress on Wednesday.",
+                    "copyright": "Hannah Yoon for The New York Times"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2023/05/31/multimedia/31nj-congress-ckmq/31nj-congress-ckmq-threeByTwoSmallAt2X.jpg",
+                    "format": "threeByTwoSmallAt2X",
+                    "height": 400,
+                    "width": 600,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Sue Altman, head of New Jersey’s liberal-leaning Working Families Alliance, is expected to announce a run for Congress on Wednesday.",
+                    "copyright": "Hannah Yoon for The New York Times"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2023/05/31/multimedia/31nj-congress-ckmq/31nj-congress-ckmq-thumbLarge.jpg",
+                    "format": "Large Thumbnail",
+                    "height": 150,
+                    "width": 150,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Sue Altman, head of New Jersey’s liberal-leaning Working Families Alliance, is expected to announce a run for Congress on Wednesday.",
+                    "copyright": "Hannah Yoon for The New York Times"
+                }
+            ],
+            "short_url": "https://nyti.ms/3qcZ15f"
+        },
+        {
+            "section": "world",
+            "subsection": "europe",
+            "title": "What’s Behind Rising Tensions in Kosovo?",
+            "abstract": "Clashes in northern Kosovo that injured dozens of ethnic Serbs and NATO soldiers are the latest flare up in a long-running standoff between Kosovo and Serbia.",
+            "url": "https://www.nytimes.com/2023/05/30/world/europe/kosovo-serbia-nato-peacekeeper-clashes.html",
+            "uri": "nyt://article/5291fde3-fd3e-51c2-a6dc-5b737c3ff31e",
+            "byline": "By Cora Engelbrecht",
+            "item_type": "Article",
+            "updated_date": "2023-05-30T23:30:49-04:00",
+            "created_date": "2023-05-30T13:52:44-04:00",
+            "published_date": "2023-05-30T13:52:44-04:00",
+            "material_type_facet": "",
+            "kicker": "",
+            "des_facet": [
+                "Elections",
+                "Demonstrations, Protests and Riots",
+                "Secession and Independence Movements",
+                "Politics and Government"
+            ],
+            "org_facet": [
+                "North Atlantic Treaty Organization"
+            ],
+            "per_facet": [
+                "Kurti, Albin",
+                "Vucic, Aleksandar"
+            ],
+            "geo_facet": [
+                "Kosovo"
+            ],
+            "multimedia": [
+                {
+                    "url": "https://static01.nyt.com/images/2023/05/30/multimedia/30kosovo-explainer-01-gclf/30kosovo-explainer-01-gclf-superJumbo.jpg",
+                    "format": "Super Jumbo",
+                    "height": 1365,
+                    "width": 2048,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "NATO officers and ethnic Serbs clashed in Zvecan, Kosovo, on Monday. ",
+                    "copyright": "Georgi Licovski/EPA, via Shutterstock"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2023/05/30/multimedia/30kosovo-explainer-01-gclf/30kosovo-explainer-01-gclf-threeByTwoSmallAt2X.jpg",
+                    "format": "threeByTwoSmallAt2X",
+                    "height": 400,
+                    "width": 600,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "NATO officers and ethnic Serbs clashed in Zvecan, Kosovo, on Monday. ",
+                    "copyright": "Georgi Licovski/EPA, via Shutterstock"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2023/05/30/multimedia/30kosovo-explainer-01-gclf/30kosovo-explainer-01-gclf-thumbLarge.jpg",
+                    "format": "Large Thumbnail",
+                    "height": 150,
+                    "width": 150,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "NATO officers and ethnic Serbs clashed in Zvecan, Kosovo, on Monday. ",
+                    "copyright": "Georgi Licovski/EPA, via Shutterstock"
+                }
+            ],
+            "short_url": "https://nyti.ms/43x0mCn"
+        },
+        {
+            "section": "theater",
+            "subsection": "",
+            "title": "5 Shows, 94 Actors, 450 Costumes: Emilio Sosa Dresses Broadway",
+            "abstract": "With two Tony Award nominations in a single season, this prolific costume designer lets textiles tell the story.",
+            "url": "https://www.nytimes.com/2023/05/30/theater/emilio-sosa-costume-design.html",
+            "uri": "nyt://article/0c5b5e14-b554-5101-9f7b-572d99524b01",
+            "byline": "By Darryn King",
+            "item_type": "Article",
+            "updated_date": "2023-05-30T17:15:16-04:00",
+            "created_date": "2023-05-30T13:17:29-04:00",
+            "published_date": "2023-05-30T13:17:29-04:00",
+            "material_type_facet": "",
+            "kicker": "",
+            "des_facet": [
+                "Theater",
+                "Costumes",
+                "Tony Awards (Theater Awards)",
+                "Content Type: Personal Profile",
+                "Ain't No Mo' (Play)",
+                "Good Night, Oscar (Play)",
+                "A Beautiful Noise (Play)",
+                "1776 (Play)",
+                "Sweeney Todd: The Demon Barber of Fleet Street (Play)"
+            ],
+            "org_facet": [],
+            "per_facet": [
+                "Sosa, Emilio"
+            ],
+            "geo_facet": [],
+            "multimedia": [
+                {
+                    "url": "https://static01.nyt.com/images/2023/06/04/multimedia/04Emilio-Sosa-gmzv/04Emilio-Sosa-gmzv-superJumbo.jpg",
+                    "format": "Super Jumbo",
+                    "height": 2048,
+                    "width": 2048,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "“A teacher of mine used art to try to get me to come out of my shell,” Emilio Sosa said. “She put a colored pencil in my hand, and I never let it go.”",
+                    "copyright": "Elias Williams for The New York Times"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2023/06/04/multimedia/04Emilio-Sosa-gmzv/04Emilio-Sosa-gmzv-threeByTwoSmallAt2X.jpg",
+                    "format": "threeByTwoSmallAt2X",
+                    "height": 400,
+                    "width": 600,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "“A teacher of mine used art to try to get me to come out of my shell,” Emilio Sosa said. “She put a colored pencil in my hand, and I never let it go.”",
+                    "copyright": "Elias Williams for The New York Times"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2023/06/04/multimedia/04Emilio-Sosa-gmzv/04Emilio-Sosa-gmzv-thumbLarge.jpg",
+                    "format": "Large Thumbnail",
+                    "height": 150,
+                    "width": 150,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "“A teacher of mine used art to try to get me to come out of my shell,” Emilio Sosa said. “She put a colored pencil in my hand, and I never let it go.”",
+                    "copyright": "Elias Williams for The New York Times"
+                }
+            ],
+            "short_url": "https://nyti.ms/3N5wec5"
+        }
+    ]
+}

@@ -45,3 +45,30 @@ export const UK_DEFRA_INDEX = (index) => {
             }
     }
 }
+export const newsCategory = [
+    { name: "Home", value: "home" },
+    { name: "Arts", value: "arts" },
+    { name: "Automobiles", value: "automobiles" },
+    { name: "Books/review", value: "books" },
+    { name: "Business", value: "business" },
+    { name: "Fashion", value: "fashion" },
+    { name: "Food", value: "food" },
+    { name: "Health", value: "health" },
+    { name: "Insider", value: "insider" },
+    { name: "Magazine", value: "magazine" },
+    { name: "Movies", value: "movies" },
+    { name: "Nyregion", value: "nyregion" },
+    { name: "Obituaries", value: "obituaries" },
+    { name: "Opinion", value: "opinion" },
+    { name: "Politics", value: "politics" },
+    { name: "Realestate", value: "realestate" },
+    { name: "Science", value: "science" },
+    { name: "Sports", value: "sports" },
+    { name: "Sundayreview", value: "sundayreview" },
+    { name: "Technology", value: "technology" },
+    { name: "Theater", value: "theater" },
+    { name: "T-magazine", value: "t-magazine" },
+    { name: "Travel", value: "travel" },
+    { name: "Upshot", value: "upshot" },
+    { name: "Us", value: "us" }
+]

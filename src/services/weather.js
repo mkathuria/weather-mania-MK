@@ -6,7 +6,7 @@ export const weather = createApi({
     endpoints: (builder) => ({
         getForecastData: builder.query({
             query: (payload) => ({
-                url: `/forecast.json?key=42435fa1f48547ef9a482238233105&q=${payload}&days=7&alerts=yes&aqi=yes`,
+                url: `/forecast.json?key=ff046475e0c4416fac371505230111&q=${payload}&days=7&alerts=yes&aqi=yes`,
                 method: 'GET',
                 headers: {
                     'Content-type': 'application/json',

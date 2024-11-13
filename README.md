@@ -10,7 +10,7 @@
 <!-- every styles under pallete should have mai property -->
 <!-- Create a theme context and wrap the Themeprovider (by mui core) under this the wrap the app under the theme provider -->
 <!-- create an value as object {theme:"", setTheme:(theme)=>setTheme(theme)} and pass it as contxt value -->
-<!-- Using below code you can modify body/html style -->
+<!-- Using below code you can modify body/html style   -->
 
 ---
 
